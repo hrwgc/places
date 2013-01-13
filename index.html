@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Places
+		</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type="text/javascript">
+</script>
+		<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js' type="text/javascript">
+</script>
+		<link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' type="text/css">
+		<link rel="stylesheet" href="font/CartoGothic/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<div class='clearfix'></div>
+		<h2></h2>
+		<div class='container'>
+			<h2 class='left'>
+				Damascus, Syria
+			</h2>
+			<div id="damascus" class="map"></div>
+		</div>
+		<div class='clearfix'></div>
+		<div class='container'>
+			<h2 class='left'>
+				Cairo, Egypt
+			</h2>
+			<div id="cairo" class="map"></div>
+			<div class='clearfix'></div>
+			
+		</div><script type='text/javascript'>
+  var map = mapbox.map('damascus')
+		  map.addLayer(mapbox.layer().id('herwig.map-fzavh3a8,herwig.damascus,,herwig.map-a8gkd9qt').composite(true));
+		  map.zoom(14).center({lat:33.5141 , lon:  36.3079}).setPanLimits([{    
+				lat: 33.2404,
+				lon: 36.2329
+				}, {
+				lat: 33.7466,
+				lon:  36.3854
+				}]);
+				map.setZoomRange(9, 17)
+				map.ui.zoombox.add();
+				map.ui.zoomer.add();				
+ var map = mapbox.map('cairo')
+	      map.addLayer(mapbox.layer().id('herwig.map-fzavh3a8,herwig.cairo,herwig.map-a8gkd9qt').composite(true));
+					  map.zoom(13).center({lat:31.2358, lon: 30.0444}).setPanLimits([{    
+							lat: 29.8474,
+							lon: 31.1215
+							}, {
+							lat: 30.3097,
+							lon:  31.3412
+							}]);
+							map.setZoomRange(9, 17)
+							map.ui.zoombox.add();
+							map.ui.zoomer.add();
+		</script>
+	</body>
+</html>
