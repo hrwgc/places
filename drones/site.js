@@ -1,5 +1,5 @@
 var map = mapbox.map('map');
-mapbox.load('herwig.map-fzavh3a8,herwig.map-xhhz09q8', function (o) {
+mapbox.load('herwig.map-0g1xpajs', function (o) {
     map.addLayer(o.layer);
 });
 
