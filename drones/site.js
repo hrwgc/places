@@ -140,7 +140,7 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
         };
 
         stop.onclick = function () {
-            window.clearInterval(features[1].properties.date);
+            window.clearInterval(playStep);
         };
                 click_date(1087444800000)();
     
