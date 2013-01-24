@@ -124,7 +124,6 @@ function filterJSON(key, value) {
 }
 return undefined
 }
-
         play.onclick = function () {
           //  map.removeLayer(markerLayer);
             var step = 0;
@@ -132,14 +131,15 @@ return undefined
             playStep = window.setInterval(function () {
                 if (step < datelist.length) {
                         click_date(datelist[step])();
-                    $('#clock').css('display','block');
+                    $('#clock').css('display','block').css('background','#fff');
+                    $('#description').css('background-color','#fff')
                     $('#clock').empty();
                     $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
                 } else {
                     window.clearInterval(playStep);
                 }
-            }, 650);
+            }, 950);
                 mapbox.markers.interaction(markerLayer).remove()
 
         };
@@ -148,6 +148,7 @@ return undefined
             window.clearInterval(playStep);
             mapbox.markers.interaction(markerLayer).add().showOnHover(false)
             $('#clock').css('display','none');
+
 
         };        
     map.addLayer(markerLayer);

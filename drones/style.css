@@ -4,7 +4,7 @@ body{
 #map {
 position: absolute;
 top: 60px;
-left: 320px;
+left:20px;
 right: 20px;
 bottom: 20px;
 z-index: 0;
@@ -92,23 +92,35 @@ a.year-active {
   }
 #clock {
     position:absolute;
-    top:70px;
-    width:300px;
+    bottom:70px;
+    left:50px;
+    width:400px;
     background-color:#fff;
     color:#DC1438;
     z-index:5;
+    height:auto;
+    padding:10px;
+    padding-top:10px;
+    -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+    border-radius: 4px;
+    display:none;
+    padding-top:30px;
   }
   #clock span {
-    margin:10px;
+    position:relative;
+    margin-top:10px;
   }
 .date-active {
   font-size:40px;
 }
+#clock div {
+  background: #fff
+}
 #clock table  {
   color:#000;
-  position:absolute;
-  margin-left:10px;
-  margin-right:10px;
-  margin-top:20px;
+  width:100%;
+  background-color:#fff;
+  margin-top:10px;
 }
 .marker-popup{display:block}
