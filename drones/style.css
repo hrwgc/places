@@ -104,10 +104,11 @@ a.year-active {
 .date-active {
   font-size:40px;
 }
-table  {
+#clock table  {
   color:#000;
   position:absolute;
   margin-left:10px;
   margin-right:10px;
   margin-top:20px;
 }
+.marker-popup{display:block}

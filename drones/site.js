@@ -56,7 +56,7 @@ function fusionTables(id, callback) {
                     "marker-color": "#ff0000",
                     "marker-size": "small",
                     "marker-symbol": "heliport",
-                    "title": "<h2>" + location + "</h2>",
+                    "title": "<h2>" + dateStr +"</h2>" + "<h3>" + location + "</h2>",
                     "date": date,
                     "dateStr": dateStr,
                     "description": "<table class='table table-bordered table-hover'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Minimum Total Killed</td><td>" + minimumTotalKilled + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
@@ -81,47 +81,6 @@ function fusionTables(id, callback) {
 
     var timeline = document.getElementById('timeline'),
         controls = document.getElementById('controls');
-
-
-// fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
-//     features = _.map(features, function (f) {
-//         f.properties.title = f.properties.title
-//         f.properties.description = f.properties.description
-//         f.properties.date = f.properties.date
-//         return f;
-//     });
-
-
-//        function click_date(y) {
-//             var activeMarkers = {}
-//             return function () {
-//                 var active = document.getElementsByClassName('date-active');
-//                 if (active.length) active[0].className = '';
-//                  markerLayer.filter(function(f) { console.log(f);if (f.properties.date == y); activeMarkers.push(features.properties['date']); });
-//                  // if (strikes.date == y || strikes.active == true)  {
-//                  //    activeMarkers.push(features.properties['date'] == y)
-//                  // }
-//                 // {
-//                 //  return undefined;
-//                 //  }
-                                     
-
-//                  markerLayer.features(activeMarkers)
-//                  //markerLayer.interaction.auto()
-                    
-//                 };
-//                 return false
-// }
-
-//     var markerLayer = mapbox.markers.layer()
-//         .features(features)
-//         var strikes = {}
-//         var datelist = []
-//          for (var i = 0; i < features.length; i++) {
-//              strikes[features[i].properties.date] = {"date" : features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr, "active": false};
-//       }
-//             for (var y in strikes) datelist.push(y);
-//       datelist.sort();
 fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
     features = _.map(features, function (f) {
         f.properties.title = f.properties.title
@@ -139,7 +98,6 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
                 });
              return y;
         }
-console.log(f)
     }
     
 
@@ -173,11 +131,8 @@ return undefined
             var activeMarkers = {}
             playStep = window.setInterval(function () {
                 if (step < datelist.length) {
-                    for (var i=0; i<step; i++){
                         click_date(datelist[step])();
-                    }
-
-                    // markerLayer.features(activeMarkers)
+                    $('#clock').css('display','block');
                     $('#clock').empty();
                     $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
@@ -185,12 +140,18 @@ return undefined
                     window.clearInterval(playStep);
                 }
             }, 650);
+                mapbox.markers.interaction(markerLayer).remove()
+
         };
 
         stop.onclick = function () {
             window.clearInterval(playStep);
+            mapbox.markers.interaction(markerLayer).add().showOnHover(false)
+            $('#clock').css('display','none');
+
         };        
     map.addLayer(markerLayer);
+    mapbox.markers.interaction(markerLayer).showOnHover(false)
     });
 
 $('#clock').append("<span id='' class='date-active'></span>")
