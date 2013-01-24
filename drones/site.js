@@ -83,6 +83,45 @@ function fusionTables(id, callback) {
         controls = document.getElementById('controls');
 
 
+// fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
+//     features = _.map(features, function (f) {
+//         f.properties.title = f.properties.title
+//         f.properties.description = f.properties.description
+//         f.properties.date = f.properties.date
+//         return f;
+//     });
+
+
+//        function click_date(y) {
+//             var activeMarkers = {}
+//             return function () {
+//                 var active = document.getElementsByClassName('date-active');
+//                 if (active.length) active[0].className = '';
+//                  markerLayer.filter(function(f) { console.log(f);if (f.properties.date == y); activeMarkers.push(features.properties['date']); });
+//                  // if (strikes.date == y || strikes.active == true)  {
+//                  //    activeMarkers.push(features.properties['date'] == y)
+//                  // }
+//                 // {
+//                 //  return undefined;
+//                 //  }
+                                     
+
+//                  markerLayer.features(activeMarkers)
+//                  //markerLayer.interaction.auto()
+                    
+//                 };
+//                 return false
+// }
+
+//     var markerLayer = mapbox.markers.layer()
+//         .features(features)
+//         var strikes = {}
+//         var datelist = []
+//          for (var i = 0; i < features.length; i++) {
+//              strikes[features[i].properties.date] = {"date" : features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr, "active": false};
+//       }
+//             for (var y in strikes) datelist.push(y);
+//       datelist.sort();
 fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
     features = _.map(features, function (f) {
         f.properties.title = f.properties.title
@@ -94,28 +133,26 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
             return function () {
                 var active = document.getElementsByClassName('date-active');
                 if (active.length) active[0].className = '';
-              markerLayer.filter(function (f) {
-                    return f.properties.date == y;
-                    return f.properties.active = true;
-                    for (h in f.length){}
-                    markerLayer.add_feature({
-                        geometry: { coordinates: f.properties.geometry.coordinates},
-                        properties: {title: f.properties.title, description: f.properties.description,  dateStr: f.properties.dateStr}});
+                    markerLayer.filter(function (f) {
+                       return f.properties.date <= y;
+
                 });
-                return false;
-            };
+             return y;
         }
+console.log(f)
+    }
+    
+
+
     var markerLayer = mapbox.markers.layer()
         .features(features)
         var strikes = {}
         var datelist = []
          for (var i = 0; i < features.length; i++) {
-             strikes[features[i].properties.date] = {"date" : features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr};
+             strikes[features[i].properties.date] = {"geometry":features[i].properties.geometry, "date": features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr};
       }
       for (var y in strikes) datelist.push(y);
       datelist.sort();
-  console.log(datelist)
-  console.log(strikes)
 
         var stop = controls.appendChild(document.createElement('a')),
             play = controls.appendChild(document.createElement('a')),
@@ -123,33 +160,36 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
 
         stop.innerHTML = 'STOP ■';
         play.innerHTML = 'PLAY ▶';
+function filterJSON(key, value) {
+    if (value.date == key) {
+    return value
+}
+return undefined
+}
 
         play.onclick = function () {
+          //  map.removeLayer(markerLayer);
             var step = 0;
+            var activeMarkers = {}
             playStep = window.setInterval(function () {
                 if (step < datelist.length) {
+                    for (var i=0; i<step; i++){
+                        click_date(datelist[step])();
+                    }
 
-                    click_date(datelist[step])();
-  //                   newStrike = $.grep(strikes.date, function(element, index){
-  // return (element.date == '');
-// });               
+                    // markerLayer.features(activeMarkers)
                     $('#clock').empty();
-                    var date = new Date(datelist[step]+ " GMT")
-
                     $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
                 } else {
                     window.clearInterval(playStep);
                 }
-            }, 250);
+            }, 650);
         };
 
         stop.onclick = function () {
             window.clearInterval(playStep);
-        };
-                click_date(1087444800000)();
-        
-    
+        };        
     map.addLayer(markerLayer);
     });
 

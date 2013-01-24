@@ -31,7 +31,7 @@ border-radius: 6px;
 }
 #sidebar {
   position:absolute;
-  top:20px;
+  top:90px;
   right:20px;
   background:#fff;
   z-index:999;
@@ -39,7 +39,7 @@ border-radius: 6px;
   opacity:0.9;
   }
 #timeline {
-  padding:10px;
+  padding:0px;
   }
 #timeline a {
   font-size:10px;
