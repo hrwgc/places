@@ -35,6 +35,7 @@ function fusionTables(id, callback) {
             var re = /^([^\-]{1,})-([^\-]+)-([^\-]+)$/;
             var origDate = entry[3];
             var date = Date.parse(origDate.replace(re, "$2 $1, 20$3"))
+            var dateStr = origDate.replace(re, "$2 $1, 20$3")
             var area = entry[4];
             var target = entry[5];
             var targetGroup = entry[6];
@@ -57,7 +58,8 @@ function fusionTables(id, callback) {
                     "marker-symbol": "heliport",
                     "title": "<h2>" + location + "</h2>",
                     "date": date,
-                    "description": "<table><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Minimum Total Killed</td><td>" + minimumTotalKilled + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
+                    "dateStr": dateStr,
+                    "description": "<table class='table table-bordered table-hover'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Minimum Total Killed</td><td>" + minimumTotalKilled + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
                 }
             };
             features.push(feature);
@@ -90,35 +92,30 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
     });
        function click_date(y) {
             return function () {
-                var active = document.getElementsByClassName('year-active');
+                var active = document.getElementsByClassName('date-active');
                 if (active.length) active[0].className = '';
-                document.getElementById('y' + y).className = 'year-active';
-                markerLayer.filter(function (f) {
+              markerLayer.filter(function (f) {
                     return f.properties.date == y;
+                    return f.properties.active = true;
+                    for (h in f.length){}
+                    markerLayer.add_feature({
+                        geometry: { coordinates: f.properties.geometry.coordinates},
+                        properties: {title: f.properties.title, description: f.properties.description,  dateStr: f.properties.dateStr}});
                 });
                 return false;
             };
         }
     var markerLayer = mapbox.markers.layer()
         .features(features)
-        var dates = {},
-        datelist = []
-        console.log(features)
-        for (var i = 0; i < features.length; i++) {
-            dates[features[i].properties.date] = true;
-        }
-        for (var y in dates) datelist.push(y);
-        datelist.sort();
-        console.log(datelist)
-        for (var i = 0; i < datelist.length; i++) {
-            var a = timeline.appendChild(document.createElement('a'));
-            a.innerHTML = datelist[i] + ' ';
-            a.id = 'y' + datelist[i];
-            a.href = '#';
-            a.onclick = click_date(datelist[i]);
-        }
-                console.log(dates)
-                console.log(datelist)
+        var strikes = {}
+        var datelist = []
+         for (var i = 0; i < features.length; i++) {
+             strikes[features[i].properties.date] = {"date" : features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr};
+      }
+      for (var y in strikes) datelist.push(y);
+      datelist.sort();
+  console.log(datelist)
+  console.log(strikes)
 
         var stop = controls.appendChild(document.createElement('a')),
             play = controls.appendChild(document.createElement('a')),
@@ -131,7 +128,15 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
             var step = 0;
             playStep = window.setInterval(function () {
                 if (step < datelist.length) {
+
                     click_date(datelist[step])();
+  //                   newStrike = $.grep(strikes.date, function(element, index){
+  // return (element.date == '');
+// });               
+                    $('#clock').empty();
+                    var date = new Date(datelist[step]+ " GMT")
+
+                    $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
                 } else {
                     window.clearInterval(playStep);
@@ -143,9 +148,10 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
             window.clearInterval(playStep);
         };
                 click_date(1087444800000)();
+        
     
     map.addLayer(markerLayer);
     });
 
-
+$('#clock').append("<span id='' class='date-active'></span>")
 

@@ -1,17 +1,20 @@
-
+body{
+  font:14px/1.3em 'Roboto', sans-serif;
+}
 #map {
 position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
+top: 60px;
+left: 320px;
+right: 20px;
+bottom: 20px;
 z-index: 0;
+-webkit-border-radius: 6px;
+border-radius: 6px;
 }
 
 .my-custom-marker {
     /* support pointer events */
     pointer-events:all;
-
     position:absolute;
     width:40px;
     height:40px;
@@ -20,7 +23,12 @@ z-index: 0;
     margin-left:-20px;
     margin-top:-20px;
 }
-
+#title {
+  font-size:68px;
+  top:10px;
+  margin:10px;
+  position:absolute;
+}
 #sidebar {
   position:absolute;
   top:20px;
@@ -30,10 +38,8 @@ z-index: 0;
   overflow:auto;
   opacity:0.9;
   }
-//#sidebar:hover { opacity:1; }
 #timeline {
   padding:10px;
-
   }
 #timeline a {
   font-size:10px;
@@ -84,3 +90,24 @@ z-index: 0;
 a.year-active {
   color:#DC1438;
   }
+#clock {
+    position:absolute;
+    top:70px;
+    width:300px;
+    background-color:#fff;
+    color:#DC1438;
+    z-index:5;
+  }
+  #clock span {
+    margin:10px;
+  }
+.date-active {
+  font-size:40px;
+}
+table  {
+  color:#000;
+  position:absolute;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:20px;
+}
