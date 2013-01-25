@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+    <title>Drone Wars</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.js'></script>
+    <script src='http://underscorejs.org/underscore-min.js'></script>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900,300,500' rel='stylesheet' type='text/css'>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
+    <link href='bootstrap.css' rel='stylesheet' />
+    <link href='reset.css' rel='stylesheet' />
+    <link href='style.css' rel='stylesheet' />
+  </head>
+
+  <body>
+    <!-- <div id='title'><h2>US Drone Strikes <small>Pakistan, 2004-2013</small></h2></div>
+  	<div id='sidebar'>
+      <div id='timeline'>
+      <div id='controls'></div>
+    <h5>Source: <a class='attrib' href="http://www.thebureauinvestigates.com/category/projects/drones/" target="_blank">The Bureau of Investigative Journalism</a></h5>
+    <div class='attrib read-more'><a href="http://livingunderdrones.org/">Learn More</a></div>
+  </div>
+</div>
+    <div id='clock'></div> -->
+
+    <div id='map'>
+</div>
+  <script>
+function fusionTables(id, callback) {
+
+	function response(x) {
+		var features = [];
+		if (!x || !x.rows) return features;
+		for (var i = 0; i < x.rows.length; i++) {
+			var entry = x.rows[i];
+			var summary = entry[12];
+			var latitude = entry[13];
+			var longitude = entry[14];
+			var str = entry[8]
+            var minTotalDeaths = parseInt(str.split('-')[0]);
+            if (str.split('-').length > 1) {
+                var maxTotalDeaths = parseInt(str.split('-')[1]);
+                var avgTotalDeaths = (minTotalDeaths + maxTotalDeaths)/2
+            }
+            else {
+                var avgTotalDeaths = parseInt(str);
+            }
+
+			var feature = {
+				geometry: {
+					type: 'Point',
+					coordinates: [parseFloat(entry[14]), parseFloat(entry[13])]
+				},
+				properties: {
+					"title": entry[0],
+					"avgTotalDeaths" : avgTotalDeaths,
+					"description": "<p>Number of Deaths:" + entry[8] + "</p>"
+				}
+			};
+			features.push(feature);
+		}
+
+		return callback(features);
+	}
+	var key = "[ enter your google fusion tables api key]";
+	var key = "AIzaSyATjmrN-_hALhmD62zhZLh4EanrmwT-mjE";
+	var url = 'https://www.googleapis.com/fusiontables/v1/query?sql=SELECT%20*%20FROM%20' + id + '&key=' + key + '&typed=false&callback=jsonp';
+	$.ajax({
+		url: url,
+		dataType: 'jsonp',
+		jsonpCallback: 'jsonp',
+		success: response,
+		error: response
+	});
+}
+var scale_factory_cache = {};
+    function scale_factory(feature) {
+    var dim = Math.round((feature.properties.avgTotalDeaths +1) * 1.5);
+    if (!scale_factory_cache[dim]) {
+        var c = document.createElement("canvas");
+        c.width = dim;
+        c.height = dim;
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "rgba(220, 20, 56, 0.6)";
+        ctx.strokeStyle = "rgb(103,10,26)";
+        ctx.beginPath();
+        ctx.arc(dim/2, dim/2, dim/Math.PI, 0, Math.PI*2, true);
+        ctx.closePath();
+        ctx.fill();
+        ctx.stroke();
+        scale_factory_cache[dim] = c.toDataURL();
+    }
+    var el = document.createElement("img");
+    el.width = dim;
+    el.height = dim;
+    el.src = scale_factory_cache[dim];
+    el.style.cssText =
+        "width:" + dim + "px;" +
+        "height:" + dim + "px;" +
+        "margin-left:" + (-dim/2) + "px;" +
+        "margin-top:" + (-dim/2) + "px;" +
+        "--webkit-border-radius: 50%;" +
+        "border-radius: 50%;"+
+        "--webkit-box-shadow: -10px;" +
+        "box-shadow: 1px 1px 3px #000;"+
+        "position:absolute";
+    return el;
+    }
+
+fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function(features) {
+	features = _.map(features, function(f) {
+		f.properties.title = f.properties.title
+		f.properties.description = f.properties.description
+		f.properties.date = f.properties.date
+		return f;
+	});
+	var map = mapbox.map('map');
+	mapbox.load('herwig.map-0g1xpajs', function(o) {
+		map.addLayer(o.layer);
+		map.setZoomRange(6, 12);
+		map.ui.hash.add();
+		map.zoom(8).center({
+			lat: 32.604,
+			lon: 69.791
+		});
+		var markerLayer = mapbox.markers.layer().factory(scale_factory).features(features)
+		map.addLayer(markerLayer)
+		mapbox.markers.interaction(markerLayer).add()
+	});
+});
+
+        </script>
+  </body>
+</html>
