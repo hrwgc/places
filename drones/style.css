@@ -123,8 +123,12 @@ a.year-active {
 #clock table  {
   color:#000;
   width:100%;
- // background-color:#fff;
-  //opacity:0.8;
   margin-top:10px;
+  line-height: 12px;
+  font-size: 90%;
 }
 .marker-popup{display:block}
+#map table tr td{
+line-height: 12px;
+font-size: 90%;
+}

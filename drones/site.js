@@ -59,7 +59,7 @@ function fusionTables(id, callback) {
                     "title": "<h2>" + dateStr +"</h2>" + "<h3>" + location + "</h2>",
                     "date": date,
                     "dateStr": dateStr,
-                    "description": "<table class='table table-bordered table-hover'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Minimum Total Killed</td><td>" + minimumTotalKilled + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
+                    "description": "<table class='table table-bordered table-hover table-condensed'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
                 }
             };
             features.push(feature);
@@ -156,4 +156,3 @@ return undefined
     });
 
 $('#clock').append("<span id='' class='date-active'></span>")
-
