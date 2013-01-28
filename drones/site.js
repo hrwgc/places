@@ -213,6 +213,9 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
             window.clearInterval(playStep);
             mapbox.markers.interaction(markerLayer).add().showOnHover(false)
             $('#clock,#counter').css('display','none');
+            $('#counter #min').text('0').attr('value','0');
+            $('#counter #max').text('0').attr('value','0');
+
 
 
         };        
