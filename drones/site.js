@@ -47,8 +47,14 @@ function fusionTables(id, callback) {
                 var avgTotalDeaths = (minTotalDeaths + maxTotalDeaths)/2
             }
             else {
-                var avgTotalDeaths = parseInt(str);
+                var avgTotalDeaths = parseInt(str) || 0;
+                var minTotalDeaths = 0;
+                if (avgTotalDeaths.length < 1) {avgTotalDeaths = 0}
+                var maxTotalDeaths = avgTotalDeaths;
+
             }
+                        console.log(avgTotalDeaths)
+
             var civiliansKilled = entry[9];
             var injured = entry[10];
             var childrenKilled = entry[11];
@@ -68,7 +74,9 @@ function fusionTables(id, callback) {
                     "date": date,
                     "dateStr": dateStr,
                     "avgTotalDeaths" : avgTotalDeaths,
-                    "description": "<table class='table table-bordered table-hover table-condensed'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
+                    "minTotalDeaths": minTotalDeaths,
+                    "maxTotalDeaths": maxTotalDeaths,
+                    "description": "<h3>" + dateStr + "</h3><table class='table table-bordered table-hover table-condensed'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
                 }
             };
             features.push(feature);
@@ -134,6 +142,8 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
         f.properties.description = f.properties.description
         f.properties.date = f.properties.date
         f.properties.bid = f.properties.bid
+        f.properties.minTotalDeaths = f.properties.minTotalDeaths
+        f.properties.maxTotalDeaths = f.properties.maxTotalDeaths
         return f;
     });
        function click_date(y) {
@@ -157,7 +167,7 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
         var strikes = {}
         var datelist = []
          for (var i = 0; i < features.length; i++) {
-             strikes[features[i].properties.date] = {"geometry":features[i].properties.geometry, "date": features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr};
+             strikes[features[i].properties.date] = {"geometry":features[i].properties.geometry, "date": features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr, "minTotalDeaths": features[i].properties.minTotalDeaths, "maxTotalDeaths": features[i].properties.maxTotalDeaths};
       }
       for (var y in strikes) datelist.push(y);
       datelist.sort();
@@ -175,15 +185,26 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
             playStep = window.setInterval(function () {
                 if (step < datelist.length) {
                         click_date(datelist[step])();
-                    $('#clock').css('display','block').css('background','#fff');
+                    $('#clock,#counter').css('display','block').css('background','#fff');
                     $('#description').css('background-color','#fff')
+                    var min = parseInt($('#counter span#min').attr('value')) + strikes[datelist[step]].minTotalDeaths
+                    if (strikes[datelist[step]].maxTotalDeaths.length <= 0) {
+                        maxString = 0;
+                    } else {
+                        maxString = strikes[datelist[step]].maxTotalDeaths
+                    };
+                    console.log(strikes[datelist[step]].maxTotalDeaths);
+                    console.log(parseInt($('#counter span#max').attr('value')) + maxString)
+                    var max = parseInt($('#counter span#max').attr('value')) + maxString;
+                    $('#counter #min').empty().text(min).attr('value',min);
+                    $('#counter #max').empty().text(max).attr('value',max);
                     $('#clock').empty();
                     $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
                 } else {
                     window.clearInterval(playStep);
                 }
-            }, 950);
+            }, 750);
                 mapbox.markers.interaction(markerLayer).remove()
 
         };
@@ -191,7 +212,7 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
         stop.onclick = function () {
             window.clearInterval(playStep);
             mapbox.markers.interaction(markerLayer).add().showOnHover(false)
-            $('#clock').css('display','none');
+            $('#clock,#counter').css('display','none');
 
 
         };        

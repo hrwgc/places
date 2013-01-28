@@ -94,7 +94,7 @@ a.year-active {
     position:absolute;
     bottom:30px;
     left:30px;
-    width:400px;
+    width:250px;
     background-color:#fff;
     opacity:0.8;
     color:#DC1438;
@@ -109,7 +109,27 @@ a.year-active {
     padding-top:20px;
   }
 
-
+#counter { 
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    background-color:#fff;
+    opacity:0.8;
+    color:#DC1438;
+    z-index:5;
+    height:auto;
+    -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+    border-radius: 4px;
+    display:none;
+    padding:20px;
+    padding-bottom:10px;
+  left:auto;
+right:30px;
+ position:absolute;
+ z-index: 6;
+ font-size: 40px;
+}
   #clock span {
     position:relative;
     margin-top:10px;
@@ -117,6 +137,7 @@ a.year-active {
 .date-active {
   font-size:40px;
 }
+#counter,
 #clock div {
   background: #fff
 }
@@ -197,3 +218,18 @@ font-size: 90%;
   transition: all .25s ease;
   box-shadow:inset:-101px #fff;
 }
+#counter{
+  text-align: center;
+}
+#max,#min {
+text-align:center; 
+font-size: 50px;
+padding-top:5px;
+}
+#min { margin-right:5px;}
+.minmax { 
+display:block;
+font-size:14px;
+color:#000;
+padding-bottom:0;
+padding-top:10px;}
