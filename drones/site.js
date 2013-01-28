@@ -11,8 +11,8 @@ map.interaction.auto();
 map.setZoomRange(6, 12);
 map.ui.hash.add();
 map.zoom(8).center({
-    lat: 32.604,
-    lon: 69.791
+    lat: 32.886,
+    lon: 70.467
 });
 
 
