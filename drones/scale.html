@@ -13,7 +13,6 @@
     <link href='bootstrap.css' rel='stylesheet' />
     <link href='reset.css' rel='stylesheet' />
     <link href='style.css' rel='stylesheet' />
-    <link href='scale.css' rel='stylesheet' />
   </head>
 
   <body>
@@ -52,12 +51,11 @@ function fusionTables(id, callback) {
                     "bid": entry[2],
                     "dateStr":dateStr,
 					"avgTotalDeaths" : avgTotalDeaths,
-					"description": "<h4>" + dateStr + "</h4><p>Number of Deaths: " + entry[8] + "</p>"
+					"description": "<h4>" + dateStr + "</h4><p>" + summary + "</p>"
 				}
 			};
 			features.push(feature);
 		}
-
 		return callback(features);
 	}
 	var key = "AIzaSyATjmrN-_hALhmD62zhZLh4EanrmwT-mjE";
@@ -92,7 +90,6 @@ var scale_factory_cache = {};
     el.height = dim;
     el.className = 'marker';
     el.id = feature.properties.title.replace(/[ ]{1,}/, '').toLowerCase() + feature.properties.bid.toLowerCase();
-   // el.src = scale_factory_cache[dim];
     el.style.cssText =
         "width:" + dim + "px;" +
         "height:" + dim + "px;" +
