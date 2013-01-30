@@ -108,6 +108,11 @@ a.year-active {
     display:none;
     padding-top:20px;
   }
+#clock p {
+	color:#000;
+	font-weight:300;
+	margin:4px 0 4px 0;
+}
 
 #counter { 
     position:absolute;
@@ -233,4 +238,23 @@ font-size:14px;
 color:#000;
 padding-bottom:0;
 padding-top:10px;}
+
+.marker-popup { }
+.marker-description h3,
+#clock  h3 {  font-weight:400;
+	 font-size:120%;
+	 margin:4px 0 4px 0; 
+	 color:#000;
+}
 #clock #description h3{display:none;}
+
+.marker-title {
+	font-weight:500;
+    font-size:200%;
+    color: black;
+	margin:4px 0 4px 0;
+	}
+.marker-popup p { font-weight:300;     margin:4px 0 4px 0;
+ }
+.marker-popup {max-width:250px}
+.table{margin-bottom:5px;}

@@ -53,7 +53,6 @@ function fusionTables(id, callback) {
                 var maxTotalDeaths = avgTotalDeaths;
 
             }
-                        console.log(avgTotalDeaths)
 
             var civiliansKilled = entry[9];
             var injured = entry[10];
@@ -76,7 +75,7 @@ function fusionTables(id, callback) {
                     "avgTotalDeaths" : avgTotalDeaths,
                     "minTotalDeaths": minTotalDeaths,
                     "maxTotalDeaths": maxTotalDeaths,
-                    "description": "<h3>" + dateStr + "</h3><table class='table table-bordered table-hover table-condensed'><thead><tr><th>Type</th><th>Number</th></tr></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
+                    "description": "<h3>" + dateStr + "</h3><p>" + summary + "</p><table class='table table-hover table-condensed table-bordered'><thead></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
                 }
             };
             features.push(feature);
@@ -167,7 +166,7 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
         var strikes = {}
         var datelist = []
          for (var i = 0; i < features.length; i++) {
-             strikes[features[i].properties.date] = {"geometry":features[i].properties.geometry, "date": features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr, "minTotalDeaths": features[i].properties.minTotalDeaths, "maxTotalDeaths": features[i].properties.maxTotalDeaths};
+             strikes[features[i].properties.date] = {"geometry":features[i].properties.geometry, "title":   features[i].properties.title, "date": features[i].properties.date, "description" : features[i].properties.description, "dateStr": features[i].properties.dateStr, "minTotalDeaths": features[i].properties.minTotalDeaths, "maxTotalDeaths": features[i].properties.maxTotalDeaths};
       }
       for (var y in strikes) datelist.push(y);
       datelist.sort();
@@ -193,13 +192,11 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
                     } else {
                         maxString = strikes[datelist[step]].maxTotalDeaths
                     };
-                    console.log(strikes[datelist[step]].maxTotalDeaths);
-                    console.log(parseInt($('#counter span#max').attr('value')) + maxString)
                     var max = parseInt($('#counter span#max').attr('value')) + maxString;
                     $('#counter #min').empty().text(min).attr('value',min);
                     $('#counter #max').empty().text(max).attr('value',max);
                     $('#clock').empty();
-                    $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><div id='description'>" + strikes[datelist[step]].description + "</div>")
+                    $('#clock').append("<span class='date-active' id='y" + strikes[datelist[step]].dateStr + "'>" +  strikes[datelist[step]].dateStr + "</span><h3>" + strikes[datelist[step]].title + "</h3><div id='description'>" + strikes[datelist[step]].description + "</div>")
                     step++;
                 } else {
                     window.clearInterval(playStep);
