@@ -14,8 +14,7 @@ border-radius: 6px;
 }
 #title {
   font-size:68px;
-  top:10px;
-  margin:10px;
+  margin-left:20px;
   position:absolute;
 }
 #sidebar {
@@ -35,7 +34,9 @@ border-radius: 6px;
 #timeline {
   padding:0px;
   }
-#timeline a {
+.link,
+#timeline a,
+ #learn-more {
   font-size:10px;
   text-decoration:none;
   display: none;
@@ -48,31 +49,33 @@ border-radius: 6px;
 
 #timeline #controls {
   position:relative;
- // padding:10px;
 }
  #timeline h2 {
  	position:absolute;
  	top:15px;
-    right:15px;
-    font-weight:400;
-    font-size:18px;
+  right:15px;
+  font-weight:400;
+  font-size:18px;
  }
  #timeline h5{
  	  	font-weight: 300;
-
+      margin:0 0 0 0;
  }
+ .link,
 #timeline h5 a,
-#timeline #controls a {
+#timeline #controls a,
+#timeline  #learn-more {
   font-size:20px;
   color:#DC1438;
   margin:5px;
-  margin-top:20px;
+  margin-top:5px;
   display: inline-block;
   cursor: pointer;
   opacity:1;
   text-align: center;
   position: relative;
   }
+ 
   #timeline h5 a{
   	display:inline;
   	font-size: 12px;
@@ -80,15 +83,27 @@ border-radius: 6px;
   	margin-right: auto;
   	margin-left:auto;
   }
-  #timeline #controls a:hover{
+  .link,
+  #timeline #controls a:hover,
+  #timeline  #learn-more:hover{
   	background: #DC1438;
   	color:#fff;
   }
-    #timeline #controls {
+    #timeline #controls,
+    #timeline  #learn-more {
     	text-align: center;
     }
 a.year-active {
   color:#DC1438;
+  }
+  #timeline #learn-more {
+    text-align:center;
+    text-transform: uppercase;
+    font-size:12px;
+    margin:2px;
+    padding: 2px 3px 2px 3px;
+    margin-left:200px;
+
   }
 #clock {
     position:absolute;
@@ -239,7 +254,6 @@ color:#000;
 padding-bottom:0;
 padding-top:10px;}
 
-.marker-popup { }
 .marker-description h3,
 #clock  h3 {  font-weight:400;
 	 font-size:120%;
@@ -258,3 +272,99 @@ padding-top:10px;}
  }
 .marker-popup {max-width:250px}
 .table{margin-bottom:5px;}
+
+    #modal .content a {
+      color:#DC1438;
+    }
+
+#modal {
+  background:#202020;
+  background:rgba(0,0,0,0.8);
+  position:fixed;
+  left:0;
+  top:0;
+  right:0;
+  z-index:6000;
+  display:none;
+  height:100%;
+  }
+  #modal .popup {
+    top:80px;
+    position:absolute;
+    opacity:1;
+    margin-left:25%;
+    margin-right:25%;
+    width:auto;
+    }
+  #modal .content {
+    background:#f6f6f6;
+    color:#606060;
+    overflow:auto;  
+    padding:20px;
+    position:absolute;
+    }
+    #modal .header {
+      height:40px;
+      position: relative;
+    }
+
+
+      #modal .content .action {
+        color:#fff;
+        font-size: 90%;
+        padding-top:5px;
+        padding-bottom:5px;
+        }
+
+
+   #modal .content .action:hover{
+    background-color:#fff;
+    border:1px solid #DC1438;
+    color:#DC1438;
+
+   }
+  #modal .header {
+    display:inline-block;
+    }
+    #modal .header h2 {
+      line-height:16px;
+      font-size: 18px;
+      }
+
+
+  #modal .header .close {
+    float:right;
+    font-size:32px;
+    line-height:10px;
+    color:#444;
+    display:inline-block;
+    margin-top:-20px;
+    margin-left:60px;
+    }
+    #modal .header .close:hover {
+      color:#404040;
+      }
+
+#modal .content  {
+  margin-top:10px;
+      height:460px;
+
+}
+#modal .content p, #modal .content code, #modal .content ol {
+  padding:0px 10px 0px 10px;
+  font-weight: 300;
+}
+#modal .content h2 {
+  font-size:22px;
+  color:#202020;
+  margin:0 0 5px;
+  }
+
+
+#modal .content ul,
+#modal .content ul li {
+  list-style:disc;
+  list-style-position:inside;
+  }
+  .header h2{margin-bottom: 10px;     display:inline-block;
+font-size:34px;}

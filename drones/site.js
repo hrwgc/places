@@ -220,4 +220,25 @@ fusionTables('1dqxWkhKis38Lq5eLbzQz4gRRsH2ZROZXSn-Z0KQ', function (features) {
     mapbox.markers.interaction(markerLayer).showOnHover(false)
     });
 
-$('#clock').append("<span id='' class='date-active'></span>")
+$('#clock').append("<span id='' class='date-active'></span>");
+
+$(function () {
+  //Modal Popup box for data
+  $('a#learn-more').bind('click', openModal);
+
+  function openModal() {
+    $('#modal').fadeIn('fast');
+    window.location.hash = 'learn-more'
+    return false;
+  }
+
+  if (location.hash === '#learn-more') {
+    openModal();
+  }
+
+  $('.close').click(function (e) {
+    $('#overlay, #modal').fadeOut();
+    window.location.hash = '';
+    return false;
+  });
+});

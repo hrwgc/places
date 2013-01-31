@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +12,6 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:300,400italic,500' rel='stylesheet' type='text/css'>
     <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
     <link href='bootstrap.css' rel='stylesheet' />
-    <link href='reset.css' rel='stylesheet' />
     <link href='style.css' rel='stylesheet' />
   </head>
 
@@ -21,13 +21,98 @@
   <div id='timeline'>
       <div id='controls'></div>
     <h5>Source: <a class='attrib' href="http://www.thebureauinvestigates.com/category/projects/drones/" target="_blank">The Bureau of Investigative Journalism</a></h5>
-    <div class='attrib read-more'><a href="http://livingunderdrones.org/">Learn More</a></div>
+    <a href="#" id='learn-more'>Learn More</a>
   </div>
 </div>
     <div id='clock'></div>    <div id='counter'><span id='min' value="0">0</span>-<span id='max' value="0">0</span><span class='minmax'>Estimated Total Casualties</div>
 
     <div id='map'>
 </div>
+<div id='modal'>
+  <div class='popup'>
+
+  <div class='content prose'>
+      <div class='header'>
+      <h2>U.S. Drone Strikes in Pakistan, 2004-2013</h2>
+      <a class='close' href='#close'>&times;</a>
+  </div>
+<h2>Description</h2>
+<p>On Thursday, 24 January 2013, the <a href="http://www.ohchr.org/EN/Issues/Terrorism/Pages/SRTerrorismIndex.aspx">United Nations opened an inquiry</a> into the “civilian impact of the use of drones and other forms of targeted killing.” Data - data about casualties, targets, frequency, and other topics - will play an important role in this investigation, led by UN special rapporteur for human rights and counterterrorism.</p>
+<p>Visualization can add important context to help the public follow this inquiry. This site was created to visualize one particular drone strike database, maintained by the <a href="http://thebureauinvestigates.com/">Bureau of Investigative Journalism.</a></p>
+
+<p>To learn more about this map site, check out the my post <a href="http://mapbox.com/blog/mapbox-fusion-tables-drones/">Using Google Fusion Tables to Add Real-Time Feeds to MapBox Maps</a> on the MapBox blog.
+
+<h2>Methodology</h2>
+
+<p>To get a better idea of the differences between the Bureau of Investigative Journalism's dataset, New America's and the Long War Journal's, see pages 43-44 of <a href="http://livingunderdrones.org/wp-content/uploads/2012/10/Stanford-NYU-LIVING-UNDER-DRONES.pdf">Living With Drones</a>. The Bureau's data is sourced from local and international news accounts of the strikes; field investigations into possible civilian deaths, and credible researcher and lawyer fieldwork examining FATA-area drone strikes. Please see <a href="http://www.thebureauinvestigates.com/2011/08/10/pakistan-drone-strikes-the-methodology2/">The Bureau of Investigative Journalism's Methodology</a> for additional information on their sources and methodology. </p>
+
+<p>
+  Drone strike data is difficult to obtain and is generally problematic in nature. This is due to several reasons, which are outlined thoroughly in a recent report, <a href="/places/drones/Stanford-NYU-LIVING-UNDER-DRONES.pdf">Living Under Drones: Death, Injury and Trauma to Civilians from US Drone Practices in Pakistan</a>, published by the International Human Rights and Conflict Resolution Clinic at Stanford Law School and Global Justice Clinic at NYU School of Law.
+
+<p>The map site visualizes four aspects of the Bureau of Investigative Journalism's drone strike data:</p>
+
+<ol>
+<li>civilian deaths</li>
+<li>children killed</li>
+<li>number injured</li>
+<li>total number killed</li>
+</ol>
+
+<p>On the map, each marker represents a drone strike, which has been scaled to size in the following manner. Due to the imprecise nature of the casualties and number injured estimates, which are often given as a range between a high and low value, an average casualties value was computed in the following manner:</p>
+
+<p>If the total number killed is presented as a range:</p>
+
+<code>
+  average total deaths  = (minimum total deaths + maximum total deaths) / 2
+  </code>
+
+<p>If the total number killed is presented as a single value:</p>
+
+<code>
+  average total deaths  = total number killed
+  </code>
+
+</p>
+<p>There are additional impact areas which deserve further analysis and visualization, in particular, the relative civilian mortality of particular drone strike, and of the drone strikes in aggregate. This could not be achieved in a nice and clean manner with the current dataset, due first to the inclusion of numeric ranges, rather than single values, and second, to the fact that not every strike has values for the number of civilians killed. </p>
+<p>A third obstacle to a relative civilian mortality analysis relates to the distinction between civilian, noncivilian, combatant, and targeted populations, which would require thorough and consistent operational definitions for the boundaries for membership in each group, that were agreed and followed from initial data collection, reporting, and eventual analysis and visualization. Such clarity and consistency is extremely difficult when working with a third-party sourced dataset, such as the Bureau's or New America's.</p>
+<p>
+  Another avenue for visualization that could provide meaningful insight into the effects of drone strikes might look at relative mortality of unmanned strikes in comparison with manned aerial strikes. While I did not have the opportunity to explore this concept with this visualization, it appears to be an important avenue for careful analysis.<p>
+  <p>The report, <a href="">The Civilian Impact of Drones: Unexamined Costs, Unanswered Questions</a> from the Human Rights Clinic and the Center for Civilians in Conflict at Columbia Law School, critically examines claims related to drones' battlefield precision and could provide a good starting point for a visualization of the impacts of unmanned versus manned strikes. There are nevertheless many potential pitfalls associated with this sort of analysis, stemming from the faulty comparison of fundamentally incommensurable situations, which might be due to conflict theater, target, time of strike, type of weapon/targeting capability, altitude of pilot, and, among others, atmospheric composition. This site makes neither a normative nor a relative claim about the superiority, safety, or ultimate desirability of unmanned versus manned aerial strikes.</p>
+
+
+<h2>About the Data</h2>
+<div class='source-entry'>
+
+<p><a href="http://www.thebureauinvestigates.com/">The Bureau of Investigative Journalism</a> provides a live-updated database of U.S. covert drone strikes in Pakistan, which is available as an interactive map, or can be accessed via Google Fusion Tables. There are other sources for this information, including <a href="http://counterterrorism.newamerica.net/drones">New America Foundation</a> and <a href="http://www.longwarjournal.org/pakistan-strikes.php">The Long War Journal</a>, each of which has <a href="http://livingunderdrones.org/wp-content/uploads/2012/10/Stanford-NYU-LIVING-UNDER-DRONES.pdf">its own advantages and disadvantages</a>.</p>
+
+   <a class='action data link' href='http://www.thebureauinvestigates.com/2011/08/10/google-map/'></span>www</a>
+</div>
+
+<h2>Relevant Reports</h2>
+<div class='source-entry'>
+   <a class='data' href='http://civiliansinconflict.org/uploads/files/publications/The_Civilian_Impact_of_Drones_w_cover.pdf'>
+<h4 class='data-title'>The Civilian Impact of Drones: Unexamined Costs, Unanswered Questions</h4></a>
+<p>This report, published by the Human Rights Clinic and the Center for Civilians in Conflict at Columbia Law School, identifies unchallenged assumptions in the discourse of civilian harm from drone strikes. The report is careful in its analysis and ultimate conclusions, recognizing the shortcomings of drone strike data and metrics for measuring efficacy. The <strong>Civilian Protection Limitations of Drone Technology in Covert Operations</strong> section of the report unpacks many of the assumptions that underly the <em>drone strikes as  precise</em> argument. <strong>The Civilian Toll</strong> chapter of the report provides a broad examination of some of the effects of drone strikes on civilians and communities.</p>
+</div>
+<div class='source-entry'>
+<h4 class='data-title'><a class='data' href="http://livingunderdrones.org/wp-content/uploads/2012/10/Stanford-NYU-LIVING-UNDER-DRONES.pdf">Living Under Drones: Death, Injury and Trauma to Civilians from US Drone Practices in Pakistan</a></h4>
+<p>This report, published by the International Human Rights and Conflict Resolution Clinic at Stanford Law School and Global Justice Clinic at NYU School of Law, summarizes the findings of 130 interviews of those affected by drone strikes in Pakistan, including, victims, experts, and relief workers. The report counters the "dominant narrative about the use of drones in Pakistan is of a surgically precise and effective tool that makes the US safer by enabling 'targeted killing' of terrorists, with minimal downsides or collateral impacts" along four dimensions:
+<ol>
+<li>U.S. drone strikes have injured and killed civilians.</li>
+<li>Drone strikes also cause non-physical harm  to civilian populations.</li>
+<li>The evidence suggesting drone strikes have made the U.S. safer is neither conclusive or comprehensive.</li>
+<li>The U.S. use of drones for targeted killings "undermine respect for the rule of law and international legal protections and may set dangerous precedents."</li>
+</ol>
+</p>
+<p>The report underscores the need for greater accountability and transparency surrounding the U.S. use of drones and targeted killings. Specifically, the report makes recommendations for U.S. public drone strike reporting, including the release of information about U.S. investigations into civilian death and injury including current "mechanisms in place to track, analyze and publicly recognize civilian casualties" (ix).
+   </p>
+
+</div>
+
+</div>
+</div>
+</div>
+
   <script src='site.js'></script>
   </body>
 </html>
