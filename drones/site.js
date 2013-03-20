@@ -29,18 +29,14 @@ function fusionTables(id, callback) {
         for (var i = 0; i < x.rows.length; i++) {
             var entry = x.rows[i];
             var location = entry[0];
-            var strikeId = entry[1];
-            var bureauId = entry[2];
+            var bureauId = entry[1];
             var re = /^([^\-]{1,})-([^\-]+)-([^\-]+)$/;
-            var origDate = entry[3];
+            var origDate = entry[2];
             var date = Date.parse(origDate.replace(re, "$2 $1, 20$3"))
             var dateStr = origDate.replace(re, "$2 $1, 20$3")
-            var area = entry[4];
-            var target = entry[5];
-            var targetGroup = entry[6];
-            var minimumTotalKilled = entry[7];
-            var numberOfDeaths = entry[8];
-            var str = entry[8]
+            var area = entry[3];
+            var numberOfDeaths = entry[4];
+            var str = entry[4]
             var minTotalDeaths = parseInt(str.split('-')[0]);
             if (str.split('-').length > 1) {
                 var maxTotalDeaths = parseInt(str.split('-')[1]);
@@ -53,13 +49,34 @@ function fusionTables(id, callback) {
                 var maxTotalDeaths = avgTotalDeaths;
 
             }
+// set up new mins/maxs for computation of rates
+            var str = entry[5]
+            // prevent entries with blank cells for civilian deaths from converting to "zero"
+            if  (str.length > 0) {
+                var minCivDeaths = parseInt(str.split('-')[0]);
+                if (str.split('-').length > 1) {
+                   var maxCivDeaths = parseInt(str.split('-')[1]);
+                   var avgCivDeaths = (minTotalDeaths + maxTotalDeaths)/2
+                } else {
+                   var avgCivDeaths = parseInt(str) || 0;
+                   var minCivDeaths = 0;
+                if (avgCivDeaths.length < 1) {avgTotalDeaths = 0}
+                   var maxCivDeaths = avgTotalDeaths;
+                }
+                var civMortalityRate = avgCivDeaths / avgTotalDeaths || "unable to calculate"
+            }
+            if(str.replace(/[a-zA-Z]{1,}/,'') != "" == false) {
+                  var maxCivDeaths = "";
+                  var minCivDeaths = "";
+                  var avgCivDeaths = "";
+                  var civMortalityRate = "";
+             }
+            var civiliansKilled = entry[5];
 
-            var civiliansKilled = entry[9];
-            var injured = entry[10];
-            var childrenKilled = entry[11];
-            var summary = entry[12];
-            var latitude = entry[13];
-            var longitude = entry[14];
+            var childrenKilled = entry[6];
+            var summary = entry[7];
+            var latitude = entry[8];
+            var longitude = entry[9];
             var feature = {
                 geometry: {
                     type: 'Point',
@@ -75,7 +92,7 @@ function fusionTables(id, callback) {
                     "avgTotalDeaths" : avgTotalDeaths,
                     "minTotalDeaths": minTotalDeaths,
                     "maxTotalDeaths": maxTotalDeaths,
-                    "description": "<h3>" + dateStr + "</h3><p>" + summary + "</p><table class='table table-hover table-condensed table-bordered'><thead></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr>" + "<tr><td>Number Injured</td><td>" + injured + "</td></tr>" + "</tbody></table>"
+                    "description": "<h3>" + dateStr + "</h3><p>" + summary + "</p><table class='table table-hover table-condensed table-bordered'><thead></thead><tbody>" + "<tr><td>Total Deaths</td><td>" + numberOfDeaths + "</td></tr>" + "<tr><td>Civilians Killed</td><td>" + civiliansKilled + "</td></tr>" + "<tr><td>Children Killed</td><td>" + childrenKilled + "</td></tr></tbody></table>"
                 }
             };
             features.push(feature);
