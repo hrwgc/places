@@ -26,12 +26,13 @@ function fusionTables(id, callback) {
 		if (!x || !x.rows) return features;
 		for (var i = 0; i < x.rows.length; i++) {
 			var entry = x.rows[i];
-			var summary = entry[12];
-			var latitude = entry[13];
-			var longitude = entry[14];
+            var summary = entry[7];
+            var latitude = entry[8];
+            var longitude = entry[9];
             var re = /^([^\-]{1,})-([^\-]+)-([^\-]+)$/;
-            var dateStr = entry[3].replace(re, "$2 $1, 20$3");
-			var str = entry[8]
+            var origDate = entry[2];
+            var dateStr = origDate.replace(re, "$2 $1, 20$3");
+			var str = entry[4]
             var minTotalDeaths = parseInt(str.split('-')[0]);
             if (str.split('-').length > 1) {
                 var maxTotalDeaths = parseInt(str.split('-')[1]);
@@ -44,11 +45,11 @@ function fusionTables(id, callback) {
 			var feature = {
 				geometry: {
 					type: 'Point',
-					coordinates: [parseFloat(entry[14]), parseFloat(entry[13])]
+					coordinates: [parseFloat(longitude), parseFloat(latitude)]
 				},
 				properties: {
 					"title": entry[0],
-                    "bid": entry[2],
+                    "bid": entry[1],
                     "dateStr":dateStr,
 					"avgTotalDeaths" : avgTotalDeaths,
 					"description": "<h4>" + dateStr + "</h4><p>" + summary + "</p>"
