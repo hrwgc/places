@@ -1,0 +1,12 @@
+/*.caption, 
+.date {
+  width:100%;
+  display:block;
+}*/
+.story{
+  padding:5px;
+}
+.story:hover{
+  background-color: #eee;
+}
+img{max-height: 500px}
