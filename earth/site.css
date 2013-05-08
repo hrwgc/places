@@ -10,3 +10,11 @@
   background-color: #eee;
 }
 img{max-height: 500px}
+.navbar-fixed-top {
+	position: fixed;
+/*	padding:0px 90px 90px 90px;
+*/	display:block;
+}
+.navbar-fixed-top:after{
+	padding:100px;
+}
