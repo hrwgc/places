@@ -26,561 +26,561 @@
 ,
 { "type": "Feature",  "id": 11, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 109.969587251543999, 65.1811302889503 ] } }
 ,
-{ "type": "Feature",  "id": 12, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -89.355218957544878, 45.003375330510146 ] } }
+{ "type": "Feature",   "id": 12, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -89.355218957544878, 45.003375330510146 ] } }
 ,
-{ "type": "Feature",  "id": 13, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -102.553685654990261, 46.857207560318102 ] } }
+{ "type": "Feature",   "id": 13, "properties": { "year_of_re": "1990", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -102.553685654990261, 46.857207560318102 ] } }
 ,
-{ "type": "Feature",  "id": 14, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -158.377808848962189, 56.861285914432834 ] } }
+{ "type": "Feature",   "id": 14, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -158.377808848962189, 56.861285914432834 ] } }
 ,
 { "type": "Feature",  "id": 15, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -82.886977017854235, 39.190032091600663 ] } }
 ,
-{ "type": "Feature",  "id": 16, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -55.347064336464051, -0.976494522695106 ] } }
+{ "type": "Feature",   "id": 16, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -55.347064336464051, -0.976494522695106 ] } }
 ,
 { "type": "Feature",  "id": 17, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -0.018468859268046, 13.217270335839119 ] } }
 ,
-{ "type": "Feature",  "id": 18, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -49.906559331985406, -14.510537970188043 ] } }
+{ "type": "Feature",   "id": 18, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -49.906559331985406, -14.510537970188043 ] } }
 ,
-{ "type": "Feature",  "id": 19, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -59.934663623394123, -1.185660804730354 ] } }
+{ "type": "Feature",   "id": 19, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -59.934663623394123, -1.185660804730354 ] } }
 ,
 { "type": "Feature",  "id": 20, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -44.926859402948914, -18.086236168820236 ] } }
 ,
 { "type": "Feature",  "id": 21, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -82.388613832794221, 27.593194193541727 ] } }
 ,
-{ "type": "Feature",  "id": 22, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 5.076216736429547, 51.623700302354806 ] } }
+{ "type": "Feature",   "id": 22, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 5.076216736429547, 51.623700302354806 ] } }
 ,
-{ "type": "Feature",  "id": 23, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 24.725483020115632, 42.832891600542268 ] } }
+{ "type": "Feature",   "id": 23, "properties": { "year_of_re": "1994", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 24.725483020115632, 42.832891600542268 ] } }
 ,
-{ "type": "Feature",  "id": 24, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -99.481807481247102, 62.871482989796206 ] } }
+{ "type": "Feature",   "id": 24, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -99.481807481247102, 62.871482989796206 ] } }
 ,
 { "type": "Feature",  "id": 25, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -137.315229196335764, 65.870986386686425 ] } }
 ,
-{ "type": "Feature",  "id": 26, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -84.242970399902021, 22.476109951796396 ] } }
+{ "type": "Feature",   "id": 26, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -84.242970399902021, 22.476109951796396 ] } }
 ,
 { "type": "Feature",  "id": 27, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -47.6517821104337, -13.851442573396856 ] } }
 ,
-{ "type": "Feature",  "id": 28, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -79.860409596368982, 21.833897186054667 ] } }
+{ "type": "Feature",   "id": 28, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -79.860409596368982, 21.833897186054667 ] } }
 ,
-{ "type": "Feature",  "id": 29, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -72.364291797313314, 19.639326229819794 ] } }
+{ "type": "Feature",   "id": 29, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -72.364291797313314, 19.639326229819794 ] } }
 ,
 { "type": "Feature",  "id": 30, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -63.489225663456338, -8.313916169399672 ] } }
 ,
 { "type": "Feature",  "id": 31, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -68.247933132578353, -47.454472031849349 ] } }
 ,
-{ "type": "Feature",  "id": 32, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -7.571408221891158, 38.788257822999682 ] } }
+{ "type": "Feature",   "id": 32, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -7.571408221891158, 38.788257822999682 ] } }
 ,
-{ "type": "Feature",  "id": 33, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 20.55977249445116, 65.107133917877078 ] } }
+{ "type": "Feature",   "id": 33, "properties": { "year_of_re": "1990", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 20.55977249445116, 65.107133917877078 ] } }
 ,
-{ "type": "Feature",  "id": 34, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -65.277554638520542, -17.456079251172831 ] } }
+{ "type": "Feature",   "id": 34, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -65.277554638520542, -17.456079251172831 ] } }
 ,
 { "type": "Feature",  "id": 35, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -57.093879611435995, -32.440090123348519 ] } }
 ,
-{ "type": "Feature",  "id": 36, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -7.579849110806627, 40.326659796576507 ] } }
+{ "type": "Feature",   "id": 36, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -7.579849110806627, 40.326659796576507 ] } }
 ,
 { "type": "Feature",  "id": 37, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 2.059732613900378, 10.97842472763408 ] } }
 ,
-{ "type": "Feature",  "id": 38, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -112.766334865777367, 39.50603832762701 ] } }
+{ "type": "Feature",   "id": 38, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -112.766334865777367, 39.50603832762701 ] } }
 ,
-{ "type": "Feature",  "id": 39, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -62.774466077190212, -37.561096412949333 ] } }
+{ "type": "Feature",   "id": 39, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -62.774466077190212, -37.561096412949333 ] } }
 ,
 { "type": "Feature",  "id": 40, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -108.155876397537185, 39.290832055730903 ] } }
 ,
 { "type": "Feature",  "id": 41, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -73.568686226268824, -10.31338953126965 ] } }
 ,
-{ "type": "Feature",  "id": 42, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -88.465705676076666, 16.923626836251586 ] } }
+{ "type": "Feature",   "id": 42, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -88.465705676076666, 16.923626836251586 ] } }
 ,
-{ "type": "Feature",  "id": 43, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 100.833167402894972, -1.302678566066881 ] } }
+{ "type": "Feature",   "id": 43, "properties": { "year_of_re": "1994", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 100.833167402894972, -1.302678566066881 ] } }
 ,
-{ "type": "Feature",  "id": 44, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 117.63803645606373, 2.479130965176061 ] } }
+{ "type": "Feature",   "id": 44, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 117.63803645606373, 2.479130965176061 ] } }
 ,
 { "type": "Feature",  "id": 45, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 45.566916944459351, 39.734304151470127 ] } }
 ,
-{ "type": "Feature",  "id": 46, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 19.399725205794027, 50.317614830913897 ] } }
+{ "type": "Feature",   "id": 46, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 19.399725205794027, 50.317614830913897 ] } }
 ,
 { "type": "Feature",  "id": 47, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 44.034532889336205, 40.7513132212272 ] } }
 ,
-{ "type": "Feature",  "id": 48, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 36.048787564664856, 33.872359287243604 ] } }
+{ "type": "Feature",   "id": 48, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 36.048787564664856, 33.872359287243604 ] } }
 ,
-{ "type": "Feature",  "id": 49, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 15.472902323826107, 53.462688345587061 ] } }
+{ "type": "Feature",   "id": 49, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 15.472902323826107, 53.462688345587061 ] } }
 ,
 { "type": "Feature",  "id": 50, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 45.078351992100117, 40.168325168089943 ] } }
 ,
 { "type": "Feature",  "id": 51, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 14.699608180723365, 45.188890607478939 ] } }
 ,
-{ "type": "Feature",  "id": 52, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 99.378454711525308, 1.532025135744085 ] } }
+{ "type": "Feature",   "id": 52, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 99.378454711525308, 1.532025135744085 ] } }
 ,
-{ "type": "Feature",  "id": 53, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 101.630230136922378, 0.920379125986138 ] } }
+{ "type": "Feature",   "id": 53, "properties": { "year_of_re": "1991", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 101.630230136922378, 0.920379125986138 ] } }
 ,
-{ "type": "Feature",  "id": 54, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -61.06033110544881, 13.826619552412238 ] } }
+{ "type": "Feature",   "id": 54, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -61.06033110544881, 13.826619552412238 ] } }
 ,
 { "type": "Feature",  "id": 55, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 98.629160445911751, 18.80321281656888 ] } }
 ,
-{ "type": "Feature",  "id": 56, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 43.485704960166046, 41.023997639151851 ] } }
+{ "type": "Feature",   "id": 56, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 43.485704960166046, 41.023997639151851 ] } }
 ,
 { "type": "Feature",  "id": 57, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 116.502776684075201, -2.348080261042654 ] } }
 ,
-{ "type": "Feature",  "id": 58, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 112.648545064145935, 1.062348875036534 ] } }
+{ "type": "Feature",   "id": 58, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 112.648545064145935, 1.062348875036534 ] } }
 ,
-{ "type": "Feature",  "id": 59, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 140.656649859672427, -5.95369013030794 ] } }
+{ "type": "Feature",   "id": 59, "properties": { "year_of_re": "1994", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 140.656649859672427, -5.95369013030794 ] } }
 ,
 { "type": "Feature",  "id": 60, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 112.902097539141707, 0.264268160635595 ] } }
 ,
 { "type": "Feature",  "id": 61, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 117.737730309954586, 1.890822887846277 ] } }
 ,
-{ "type": "Feature",  "id": 62, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 107.606557835414492, -3.039651798731619 ] } }
+{ "type": "Feature",   "id": 62, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 107.606557835414492, -3.039651798731619 ] } }
 ,
-{ "type": "Feature",  "id": 63, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 103.17495240751434, -1.798199646964548 ] } }
+{ "type": "Feature",   "id": 63, "properties": { "year_of_re": "1996", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 103.17495240751434, -1.798199646964548 ] } }
 ,
-{ "type": "Feature",  "id": 64, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 129.053943107938323, -3.287998927512668 ] } }
+{ "type": "Feature",   "id": 64, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 129.053943107938323, -3.287998927512668 ] } }
 ,
 { "type": "Feature",  "id": 65, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 140.722615922494327, -4.726699630553227 ] } }
 ,
-{ "type": "Feature",  "id": 66, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 105.120277578855791, -5.427692479842776 ] } }
+{ "type": "Feature",   "id": 66, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 105.120277578855791, -5.427692479842776 ] } }
 ,
 { "type": "Feature",  "id": 67, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 102.718183665130653, -3.300519279951423 ] } }
 ,
-{ "type": "Feature",  "id": 68, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 122.947178369063252, 0.801956832367893 ] } }
+{ "type": "Feature",   "id": 68, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 122.947178369063252, 0.801956832367893 ] } }
 ,
-{ "type": "Feature",  "id": 69, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 119.823652354077296, -2.580663281829899 ] } }
+{ "type": "Feature",   "id": 69, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 119.823652354077296, -2.580663281829899 ] } }
 ,
 { "type": "Feature",  "id": 70, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 97.03125517293384, 3.687357438346474 ] } }
 ,
 { "type": "Feature",  "id": 71, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 112.821265541688504, 0.671019958899457 ] } }
 ,
-{ "type": "Feature",  "id": 72, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 101.047757305141303, -1.584109615610714 ] } }
+{ "type": "Feature",   "id": 72, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 101.047757305141303, -1.584109615610714 ] } }
 ,
-{ "type": "Feature",  "id": 73, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 124.007744740871033, -9.90753116164074 ] } }
+{ "type": "Feature",   "id": 73, "properties": { "year_of_re": "1999", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 124.007744740871033, -9.90753116164074 ] } }
 ,
-{ "type": "Feature",  "id": 74, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 76.160935389221692, 11.048061417040374 ] } }
+{ "type": "Feature",   "id": 74, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 76.160935389221692, 11.048061417040374 ] } }
 ,
 { "type": "Feature",  "id": 75, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -81.503328581947272, 31.255261316423091 ] } }
 ,
-{ "type": "Feature",  "id": 76, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -157.472869785641137, 67.185935711583923 ] } }
+{ "type": "Feature",   "id": 76, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -157.472869785641137, 67.185935711583923 ] } }
 ,
 { "type": "Feature",  "id": 77, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -106.923852064590932, 47.452732163524367 ] } }
 ,
-{ "type": "Feature",  "id": 78, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -111.08155152098567, 40.116553501305539 ] } }
+{ "type": "Feature",   "id": 78, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -111.08155152098567, 40.116553501305539 ] } }
 ,
-{ "type": "Feature",  "id": 79, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -156.714122633339684, 58.048003275228105 ] } }
+{ "type": "Feature",   "id": 79, "properties": { "year_of_re": "1991", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -156.714122633339684, 58.048003275228105 ] } }
 ,
 { "type": "Feature",  "id": 80, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -98.489458375091573, 37.213198633484168 ] } }
 ,
 { "type": "Feature",  "id": 81, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -150.082166604548974, 66.491942853981286 ] } }
 ,
-{ "type": "Feature",  "id": 82, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -70.774876859532441, 43.543728357247147 ] } }
+{ "type": "Feature",   "id": 82, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -70.774876859532441, 43.543728357247147 ] } }
 ,
-{ "type": "Feature",  "id": 83, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -109.28836855762566, 37.554803752527292 ] } }
+{ "type": "Feature",   "id": 83, "properties": { "year_of_re": "1992", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -109.28836855762566, 37.554803752527292 ] } }
 ,
-{ "type": "Feature",  "id": 84, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -146.041818230868557, 67.722797889304303 ] } }
+{ "type": "Feature",   "id": 84, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -146.041818230868557, 67.722797889304303 ] } }
 ,
 { "type": "Feature",  "id": 85, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -123.281098700419989, 47.105589990658309 ] } }
 ,
-{ "type": "Feature",  "id": 86, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -118.407436312846187, 37.098663768223332 ] } }
+{ "type": "Feature",   "id": 86, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -118.407436312846187, 37.098663768223332 ] } }
 ,
 { "type": "Feature",  "id": 87, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -160.082630757317418, 64.813451573308754 ] } }
 ,
-{ "type": "Feature",  "id": 88, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -97.226110502412467, 39.970726335597845 ] } }
+{ "type": "Feature",   "id": 88, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -97.226110502412467, 39.970726335597845 ] } }
 ,
-{ "type": "Feature",  "id": 89, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -148.142982605384873, 66.942206935614962 ] } }
+{ "type": "Feature",   "id": 89, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -148.142982605384873, 66.942206935614962 ] } }
 ,
 { "type": "Feature",  "id": 90, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -109.808591205794187, 40.975187765085366 ] } }
 ,
 { "type": "Feature",  "id": 91, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -67.115623106303985, 44.97981791414756 ] } }
 ,
-{ "type": "Feature",  "id": 92, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -89.279845585653703, 45.956281103178675 ] } }
+{ "type": "Feature",   "id": 92, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -89.279845585653703, 45.956281103178675 ] } }
 ,
-{ "type": "Feature",  "id": 93, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -158.266262706644767, 68.918390258021589 ] } }
+{ "type": "Feature",   "id": 93, "properties": { "year_of_re": "1992", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -158.266262706644767, 68.918390258021589 ] } }
 ,
-{ "type": "Feature",  "id": 94, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -105.024374444537045, 37.877464535603259 ] } }
+{ "type": "Feature",   "id": 94, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -105.024374444537045, 37.877464535603259 ] } }
 ,
 { "type": "Feature",  "id": 95, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -77.66402182117119, 42.707433094331265 ] } }
 ,
-{ "type": "Feature",  "id": 96, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -160.181093195452121, 63.517697877770026 ] } }
+{ "type": "Feature",   "id": 96, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -160.181093195452121, 63.517697877770026 ] } }
 ,
 { "type": "Feature",  "id": 97, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -123.896396710191596, 43.66388118015513 ] } }
 ,
-{ "type": "Feature",  "id": 98, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -69.217954570238447, 44.726833584447355 ] } }
+{ "type": "Feature",   "id": 98, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -69.217954570238447, 44.726833584447355 ] } }
 ,
-{ "type": "Feature",  "id": 99, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -163.772964330134556, 69.021104034582464 ] } }
+{ "type": "Feature",   "id": 99, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -163.772964330134556, 69.021104034582464 ] } }
 ,
 { "type": "Feature",  "id": 100, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -103.269269836396717, 29.876024761459135 ] } }
 ,
 { "type": "Feature",  "id": 101, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -79.463818569072771, 35.096947355137388 ] } }
 ,
-{ "type": "Feature",  "id": 102, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -68.985166158062242, 45.396391778246496 ] } }
+{ "type": "Feature",   "id": 102, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -68.985166158062242, 45.396391778246496 ] } }
 ,
-{ "type": "Feature",  "id": 103, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -100.487508457421853, 41.859732247569994 ] } }
+{ "type": "Feature",   "id": 103, "properties": { "year_of_re": "1994", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -100.487508457421853, 41.859732247569994 ] } }
 ,
-{ "type": "Feature",  "id": 104, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.443379635249187, 29.952331471207078 ] } }
+{ "type": "Feature",   "id": 104, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.443379635249187, 29.952331471207078 ] } }
 ,
 { "type": "Feature",  "id": 105, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -97.281478484685863, 41.653917508373404 ] } }
 ,
-{ "type": "Feature",  "id": 106, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -82.74423269664419, 34.763758992451926 ] } }
+{ "type": "Feature",   "id": 106, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -82.74423269664419, 34.763758992451926 ] } }
 ,
 { "type": "Feature",  "id": 107, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -108.034981703944197, 36.207512538836269 ] } }
 ,
-{ "type": "Feature",  "id": 108, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -122.166668503519247, 46.393145421792433 ] } }
+{ "type": "Feature",   "id": 108, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -122.166668503519247, 46.393145421792433 ] } }
 ,
-{ "type": "Feature",  "id": 109, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -110.939124936160567, 44.199030218177207 ] } }
+{ "type": "Feature",   "id": 109, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -110.939124936160567, 44.199030218177207 ] } }
 ,
 { "type": "Feature",  "id": 110, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -81.186950661747517, 26.322546609839428 ] } }
 ,
 { "type": "Feature",  "id": 111, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -161.845565750281224, 60.048957546947719 ] } }
 ,
-{ "type": "Feature",  "id": 112, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -90.103459637831094, 43.721790033146839 ] } }
+{ "type": "Feature",   "id": 112, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -90.103459637831094, 43.721790033146839 ] } }
 ,
-{ "type": "Feature",  "id": 113, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -161.626082424197079, 70.104979500751227 ] } }
+{ "type": "Feature",   "id": 113, "properties": { "year_of_re": "1998", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -161.626082424197079, 70.104979500751227 ] } }
 ,
-{ "type": "Feature",  "id": 114, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -154.652893021379214, 70.787825427501105 ] } }
+{ "type": "Feature",   "id": 114, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -154.652893021379214, 70.787825427501105 ] } }
 ,
 { "type": "Feature",  "id": 115, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -122.187819977946305, 44.480026483881588 ] } }
 ,
-{ "type": "Feature",  "id": 116, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -155.242357362681844, 69.981253946412423 ] } }
+{ "type": "Feature",   "id": 116, "properties": { "year_of_re": "1999", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -155.242357362681844, 69.981253946412423 ] } }
 ,
 { "type": "Feature",  "id": 117, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -116.789905057959686, 46.190438693085909 ] } }
 ,
-{ "type": "Feature",  "id": 118, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -123.226753775961072, 43.097759087102375 ] } }
+{ "type": "Feature",   "id": 118, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -123.226753775961072, 43.097759087102375 ] } }
 ,
-{ "type": "Feature",  "id": 119, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -78.303060540170975, 35.261341069642739 ] } }
+{ "type": "Feature",   "id": 119, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -78.303060540170975, 35.261341069642739 ] } }
 ,
 { "type": "Feature",  "id": 120, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 27.540041694971215, 57.152208508145918 ] } }
 ,
 { "type": "Feature",  "id": 121, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -94.989191340341876, 30.813305305623416 ] } }
 ,
-{ "type": "Feature",  "id": 122, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -160.820167755649578, 68.704401888956568 ] } }
+{ "type": "Feature",   "id": 122, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -160.820167755649578, 68.704401888956568 ] } }
 ,
-{ "type": "Feature",  "id": 123, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 145.758941576776522, -5.965193325198457 ] } }
+{ "type": "Feature",   "id": 123, "properties": { "year_of_re": "1991", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 145.758941576776522, -5.965193325198457 ] } }
 ,
-{ "type": "Feature",  "id": 124, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -149.43636140083521, 62.822278705765001 ] } }
+{ "type": "Feature",   "id": 124, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -149.43636140083521, 62.822278705765001 ] } }
 ,
 { "type": "Feature",  "id": 125, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -111.750398947331121, 36.500518384015116 ] } }
 ,
-{ "type": "Feature",  "id": 126, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 121.473213716251422, 16.993505800775107 ] } }
+{ "type": "Feature",   "id": 126, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 121.473213716251422, 16.993505800775107 ] } }
 ,
 { "type": "Feature",  "id": 127, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 70.171276330947876, 68.230672691565275 ] } }
 ,
-{ "type": "Feature",  "id": 128, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 111.152648627758026, 51.266428271082425 ] } }
+{ "type": "Feature",   "id": 128, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 111.152648627758026, 51.266428271082425 ] } }
 ,
-{ "type": "Feature",  "id": 129, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 72.679702006280422, 57.944683905728496 ] } }
+{ "type": "Feature",   "id": 129, "properties": { "year_of_re": "1990", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 72.679702006280422, 57.944683905728496 ] } }
 ,
 { "type": "Feature",  "id": 130, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 111.812971774488688, 57.164880776954895 ] } }
 ,
 { "type": "Feature",  "id": 131, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 121.574345150837814, 15.947384202636915 ] } }
 ,
-{ "type": "Feature",  "id": 132, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 34.595963319522461, 30.557292255042334 ] } }
+{ "type": "Feature",   "id": 132, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 34.595963319522461, 30.557292255042334 ] } }
 ,
-{ "type": "Feature",  "id": 133, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -106.129862012563763, 44.462111706447459 ] } }
+{ "type": "Feature",   "id": 133, "properties": { "year_of_re": "1994", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -106.129862012563763, 44.462111706447459 ] } }
 ,
-{ "type": "Feature",  "id": 134, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 28.306914254650607, 38.330618654425592 ] } }
+{ "type": "Feature",   "id": 134, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 28.306914254650607, 38.330618654425592 ] } }
 ,
 { "type": "Feature",  "id": 135, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 99.229046625335826, 34.529678855171795 ] } }
 ,
-{ "type": "Feature",  "id": 136, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 117.583156395703554, 69.261477821677758 ] } }
+{ "type": "Feature",   "id": 136, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 117.583156395703554, 69.261477821677758 ] } }
 ,
 { "type": "Feature",  "id": 137, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 117.8598602861166, 52.707396184318632 ] } }
 ,
-{ "type": "Feature",  "id": 138, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 35.78286699950695, 68.332264378241035 ] } }
+{ "type": "Feature",   "id": 138, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 35.78286699950695, 68.332264378241035 ] } }
 ,
-{ "type": "Feature",  "id": 139, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 108.343436345458031, 69.790378207609209 ] } }
+{ "type": "Feature",   "id": 139, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 108.343436345458031, 69.790378207609209 ] } }
 ,
 { "type": "Feature",  "id": 140, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 21.490828079103011, 41.243475261692254 ] } }
 ,
 { "type": "Feature",  "id": 141, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 132.699313089251518, 56.821423660339455 ] } }
 ,
-{ "type": "Feature",  "id": 142, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 117.419226821511984, 55.74898363275225 ] } }
+{ "type": "Feature",   "id": 142, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 117.419226821511984, 55.74898363275225 ] } }
 ,
-{ "type": "Feature",  "id": 143, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 68.762480076402426, 71.349798878461115 ] } }
+{ "type": "Feature",   "id": 143, "properties": { "year_of_re": "1995", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 68.762480076402426, 71.349798878461115 ] } }
 ,
-{ "type": "Feature",  "id": 144, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 127.790657859295607, 68.326426074112391 ] } }
+{ "type": "Feature",   "id": 144, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 127.790657859295607, 68.326426074112391 ] } }
 ,
 { "type": "Feature",  "id": 145, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 32.984676249325275, 58.489973984131474 ] } }
 ,
-{ "type": "Feature",  "id": 146, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 30.464944859580463, 38.956250255379814 ] } }
+{ "type": "Feature",   "id": 146, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 30.464944859580463, 38.956250255379814 ] } }
 ,
 { "type": "Feature",  "id": 147, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -121.552686615866804, 40.344267665548706 ] } }
 ,
-{ "type": "Feature",  "id": 148, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 34.961988372266596, 29.902496621071517 ] } }
+{ "type": "Feature",   "id": 148, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 34.961988372266596, 29.902496621071517 ] } }
 ,
-{ "type": "Feature",  "id": 149, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -70.192508295401993, 18.282933589861312 ] } }
+{ "type": "Feature",   "id": 149, "properties": { "year_of_re": "1991", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -70.192508295401993, 18.282933589861312 ] } }
 ,
 { "type": "Feature",  "id": 150, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -77.325984150808381, 18.443428393109787 ] } }
 ,
 { "type": "Feature",  "id": 151, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -66.242213853656722, 18.381449187617942 ] } }
 ,
-{ "type": "Feature",  "id": 152, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -70.306597001183079, -42.633423511466141 ] } }
+{ "type": "Feature",   "id": 152, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -70.306597001183079, -42.633423511466141 ] } }
 ,
-{ "type": "Feature",  "id": 153, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -108.554226137471147, 41.724867452391891 ] } }
+{ "type": "Feature",   "id": 153, "properties": { "year_of_re": "1992", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -108.554226137471147, 41.724867452391891 ] } }
 ,
-{ "type": "Feature",  "id": 154, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -163.766574761457491, 61.967952631656246 ] } }
+{ "type": "Feature",   "id": 154, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -163.766574761457491, 61.967952631656246 ] } }
 ,
 { "type": "Feature",  "id": 155, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -112.415159977032232, 41.927820408005772 ] } }
 ,
-{ "type": "Feature",  "id": 156, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -156.104455525777212, 69.014559173978881 ] } }
+{ "type": "Feature",   "id": 156, "properties": { "year_of_re": "1991", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -156.104455525777212, 69.014559173978881 ] } }
 ,
 { "type": "Feature",  "id": 157, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -106.668588554222481, 46.800781219858933 ] } }
 ,
-{ "type": "Feature",  "id": 158, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -6.31371192484425, 55.182517352186309 ] } }
+{ "type": "Feature",   "id": 158, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -6.31371192484425, 55.182517352186309 ] } }
 ,
-{ "type": "Feature",  "id": 159, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -159.301173788654779, 61.280774712812665 ] } }
+{ "type": "Feature",   "id": 159, "properties": { "year_of_re": "1994", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -159.301173788654779, 61.280774712812665 ] } }
 ,
 { "type": "Feature",  "id": 160, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -151.107364555286637, 69.324051602408389 ] } }
 ,
 { "type": "Feature",  "id": 161, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -88.77146770315116, 44.144180476955015 ] } }
 ,
-{ "type": "Feature",  "id": 162, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -108.589882461244429, 44.485187483839667 ] } }
+{ "type": "Feature",   "id": 162, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -108.589882461244429, 44.485187483839667 ] } }
 ,
-{ "type": "Feature",  "id": 163, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -104.765885393081362, 36.653622353131908 ] } }
+{ "type": "Feature",   "id": 163, "properties": { "year_of_re": "1991", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -104.765885393081362, 36.653622353131908 ] } }
 ,
-{ "type": "Feature",  "id": 164, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -118.391025878706529, 40.223081793085711 ] } }
+{ "type": "Feature",   "id": 164, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -118.391025878706529, 40.223081793085711 ] } }
 ,
 { "type": "Feature",  "id": 165, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -80.003256433477844, 35.35702756542193 ] } }
 ,
-{ "type": "Feature",  "id": 166, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -103.481644102598437, 29.318381066935473 ] } }
+{ "type": "Feature",   "id": 166, "properties": { "year_of_re": "1990", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -103.481644102598437, 29.318381066935473 ] } }
 ,
 { "type": "Feature",  "id": 167, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -96.88573464987752, 33.427244783346843 ] } }
 ,
-{ "type": "Feature",  "id": 168, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 47.620778117844822, 36.443827969121173 ] } }
+{ "type": "Feature",   "id": 168, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 47.620778117844822, 36.443827969121173 ] } }
 ,
-{ "type": "Feature",  "id": 169, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -143.25820577906137, 64.881989562913162 ] } }
+{ "type": "Feature",   "id": 169, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -143.25820577906137, 64.881989562913162 ] } }
 ,
 { "type": "Feature",  "id": 170, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -97.692748559622459, 41.943365220940635 ] } }
 ,
 { "type": "Feature",  "id": 171, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -93.408001059455813, 36.497662410664802 ] } }
 ,
-{ "type": "Feature",  "id": 172, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -156.858869227225256, 69.666463416070457 ] } }
+{ "type": "Feature",   "id": 172, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -156.858869227225256, 69.666463416070457 ] } }
 ,
-{ "type": "Feature",  "id": 173, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -105.294154473478869, 35.336192340588092 ] } }
+{ "type": "Feature",   "id": 173, "properties": { "year_of_re": "1997", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -105.294154473478869, 35.336192340588092 ] } }
 ,
-{ "type": "Feature",  "id": 174, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -143.253326375080633, 65.553325516936468 ] } }
+{ "type": "Feature",   "id": 174, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -143.253326375080633, 65.553325516936468 ] } }
 ,
 { "type": "Feature",  "id": 175, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -76.216714417101457, 41.457403706193872 ] } }
 ,
-{ "type": "Feature",  "id": 176, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 49.136021078596272, 39.901432736453863 ] } }
+{ "type": "Feature",   "id": 176, "properties": { "year_of_re": "1991", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 49.136021078596272, 39.901432736453863 ] } }
 ,
 { "type": "Feature",  "id": 177, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -105.489519674188188, 45.913147378218483 ] } }
 ,
-{ "type": "Feature",  "id": 178, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -98.899241457082894, 46.503804886457516 ] } }
+{ "type": "Feature",   "id": 178, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -98.899241457082894, 46.503804886457516 ] } }
 ,
-{ "type": "Feature",  "id": 179, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -96.811805261494413, 40.428379909853838 ] } }
+{ "type": "Feature",   "id": 179, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -96.811805261494413, 40.428379909853838 ] } }
 ,
 { "type": "Feature",  "id": 180, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 39.761691391468048, 59.448949187612534 ] } }
 ,
 { "type": "Feature",  "id": 181, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -114.602058830225332, 47.526353715871906 ] } }
 ,
-{ "type": "Feature",  "id": 182, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -161.002028493185833, 59.35222001368173 ] } }
+{ "type": "Feature",   "id": 182, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -161.002028493185833, 59.35222001368173 ] } }
 ,
-{ "type": "Feature",  "id": 183, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -143.277601034802501, 66.627015743365064 ] } }
+{ "type": "Feature",   "id": 183, "properties": { "year_of_re": "1993", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -143.277601034802501, 66.627015743365064 ] } }
 ,
-{ "type": "Feature",  "id": 184, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -146.985033859567579, 60.27708453064394 ] } }
+{ "type": "Feature",   "id": 184, "properties": { "year_of_re": "1994", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -146.985033859567579, 60.27708453064394 ] } }
 ,
 { "type": "Feature",  "id": 185, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -154.58295217483564, 59.023064904376376 ] } }
 ,
-{ "type": "Feature",  "id": 186, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -101.553503193195183, 37.181081695053606 ] } }
+{ "type": "Feature",   "id": 186, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -101.553503193195183, 37.181081695053606 ] } }
 ,
 { "type": "Feature",  "id": 187, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -158.363609733367269, 65.014652450902176 ] } }
 ,
-{ "type": "Feature",  "id": 188, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -142.697716462176231, 64.983821502437806 ] } }
+{ "type": "Feature",   "id": 188, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -142.697716462176231, 64.983821502437806 ] } }
 ,
-{ "type": "Feature",  "id": 189, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -108.928480757078091, 46.044211939630877 ] } }
+{ "type": "Feature",   "id": 189, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -108.928480757078091, 46.044211939630877 ] } }
 ,
 { "type": "Feature",  "id": 190, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -93.566574687293496, 44.193305357136509 ] } }
 ,
 { "type": "Feature",  "id": 191, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -151.57291237327442, 66.372261074914022 ] } }
 ,
-{ "type": "Feature",  "id": 192, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -158.431669167087932, 62.702852772225114 ] } }
+{ "type": "Feature",   "id": 192, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -158.431669167087932, 62.702852772225114 ] } }
 ,
-{ "type": "Feature",  "id": 193, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -101.334288092632221, 46.378121527928485 ] } }
+{ "type": "Feature",   "id": 193, "properties": { "year_of_re": "1998", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -101.334288092632221, 46.378121527928485 ] } }
 ,
-{ "type": "Feature",  "id": 194, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -71.943936376628045, 42.311430162730346 ] } }
+{ "type": "Feature",   "id": 194, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -71.943936376628045, 42.311430162730346 ] } }
 ,
 { "type": "Feature",  "id": 195, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -96.809810323761667, 34.653768461307422 ] } }
 ,
-{ "type": "Feature",  "id": 196, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -92.416607526142883, 44.43423870335323 ] } }
+{ "type": "Feature",   "id": 196, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -92.416607526142883, 44.43423870335323 ] } }
 ,
 { "type": "Feature",  "id": 197, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -94.685037935800182, 32.622326996931733 ] } }
 ,
-{ "type": "Feature",  "id": 198, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -77.743765485332915, 35.431966551346278 ] } }
+{ "type": "Feature",   "id": 198, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -77.743765485332915, 35.431966551346278 ] } }
 ,
-{ "type": "Feature",  "id": 199, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -105.610896806972164, 43.847537182168523 ] } }
+{ "type": "Feature",   "id": 199, "properties": { "year_of_re": "1997", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -105.610896806972164, 43.847537182168523 ] } }
 ,
 { "type": "Feature",  "id": 200, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -100.032627980080719, 33.169217538117564 ] } }
 ,
 { "type": "Feature",  "id": 201, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -159.752910076092235, 66.413837413464535 ] } }
 ,
-{ "type": "Feature",  "id": 202, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -87.92004221520628, 37.134830463047031 ] } }
+{ "type": "Feature",   "id": 202, "properties": { "year_of_re": "1997", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -87.92004221520628, 37.134830463047031 ] } }
 ,
-{ "type": "Feature",  "id": 203, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -112.777527655052211, 38.746263898611801 ] } }
+{ "type": "Feature",   "id": 203, "properties": { "year_of_re": "1998", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -112.777527655052211, 38.746263898611801 ] } }
 ,
-{ "type": "Feature",  "id": 204, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -120.707689871861561, 41.433386427026022 ] } }
+{ "type": "Feature",   "id": 204, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -120.707689871861561, 41.433386427026022 ] } }
 ,
 { "type": "Feature",  "id": 205, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -86.245106031095901, 33.699745341888651 ] } }
 ,
-{ "type": "Feature",  "id": 206, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -160.774728785350788, 62.921975043105526 ] } }
+{ "type": "Feature",   "id": 206, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -160.774728785350788, 62.921975043105526 ] } }
 ,
 { "type": "Feature",  "id": 207, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -102.453379645669258, 48.538303460757952 ] } }
 ,
-{ "type": "Feature",  "id": 208, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -99.811449448698312, 30.103653236980826 ] } }
+{ "type": "Feature",   "id": 208, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -99.811449448698312, 30.103653236980826 ] } }
 ,
-{ "type": "Feature",  "id": 209, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -163.506712075263124, 62.21330502580166 ] } }
+{ "type": "Feature",   "id": 209, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -163.506712075263124, 62.21330502580166 ] } }
 ,
 { "type": "Feature",  "id": 210, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -157.174076390535475, 21.157756549280457 ] } }
 ,
 { "type": "Feature",  "id": 211, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -157.744979159025149, 58.951599534153743 ] } }
 ,
-{ "type": "Feature",  "id": 212, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -94.748762084931741, 38.984094263363133 ] } }
+{ "type": "Feature",   "id": 212, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -94.748762084931741, 38.984094263363133 ] } }
 ,
-{ "type": "Feature",  "id": 213, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -161.054843415262269, 59.53743503775847 ] } }
+{ "type": "Feature",   "id": 213, "properties": { "year_of_re": "1999", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -161.054843415262269, 59.53743503775847 ] } }
 ,
-{ "type": "Feature",  "id": 214, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.831475958693801, 44.855637111011561 ] } }
+{ "type": "Feature",   "id": 214, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.831475958693801, 44.855637111011561 ] } }
 ,
 { "type": "Feature",  "id": 215, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 85.338919961796535, 23.895638601944082 ] } }
 ,
-{ "type": "Feature",  "id": 216, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 17.593475925508301, 44.305374713705504 ] } }
+{ "type": "Feature",   "id": 216, "properties": { "year_of_re": "1993", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 17.593475925508301, 44.305374713705504 ] } }
 ,
 { "type": "Feature",  "id": 217, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -1.565974071969348, 51.343761298706404 ] } }
 ,
-{ "type": "Feature",  "id": 218, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 1.4176961891609, 52.515997403680821 ] } }
+{ "type": "Feature",   "id": 218, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 1.4176961891609, 52.515997403680821 ] } }
 ,
-{ "type": "Feature",  "id": 219, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -3.368926720602002, 56.341315949953945 ] } }
+{ "type": "Feature",   "id": 219, "properties": { "year_of_re": "1990", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -3.368926720602002, 56.341315949953945 ] } }
 ,
 { "type": "Feature",  "id": 220, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -77.578230434998815, 24.167603999971661 ] } }
 ,
 { "type": "Feature",  "id": 221, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -73.445243509770336, 21.148184232647296 ] } }
 ,
-{ "type": "Feature",  "id": 222, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -143.828811649071724, 62.45990049231429 ] } }
+{ "type": "Feature",   "id": 222, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -143.828811649071724, 62.45990049231429 ] } }
 ,
-{ "type": "Feature",  "id": 223, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 95.285068153942916, 28.497448815364397 ] } }
+{ "type": "Feature",   "id": 223, "properties": { "year_of_re": "1991", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 95.285068153942916, 28.497448815364397 ] } }
 ,
-{ "type": "Feature",  "id": 224, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 86.898867721296398, 25.742359826899595 ] } }
+{ "type": "Feature",   "id": 224, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 86.898867721296398, 25.742359826899595 ] } }
 ,
 { "type": "Feature",  "id": 225, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 77.439742649427174, 18.53598930488873 ] } }
 ,
-{ "type": "Feature",  "id": 226, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -81.30842264867789, 31.520084678187995 ] } }
+{ "type": "Feature",   "id": 226, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -81.30842264867789, 31.520084678187995 ] } }
 ,
 { "type": "Feature",  "id": 227, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -72.846581883403502, -2.708090998166742 ] } }
 ,
-{ "type": "Feature",  "id": 228, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 22.159740903408874, 0.925275518974491 ] } }
+{ "type": "Feature",   "id": 228, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ 22.159740903408874, 0.925275518974491 ] } }
 ,
-{ "type": "Feature",  "id": 229, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -115.214659748196311, 47.125550409325356 ] } }
+{ "type": "Feature",   "id": 229, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -115.214659748196311, 47.125550409325356 ] } }
 ,
 { "type": "Feature",  "id": 230, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -88.429566682627836, 38.277150666288755 ] } }
 ,
 { "type": "Feature",  "id": 231, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -94.93429412803232, 43.278571834803607 ] } }
 ,
-{ "type": "Feature",  "id": 232, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 101.773866448561265, 5.518959165125034 ] } }
+{ "type": "Feature",   "id": 232, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 101.773866448561265, 5.518959165125034 ] } }
 ,
-{ "type": "Feature",  "id": 233, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -107.736890796312906, 34.140705581389071 ] } }
+{ "type": "Feature",   "id": 233, "properties": { "year_of_re": "1993", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -107.736890796312906, 34.140705581389071 ] } }
 ,
-{ "type": "Feature",  "id": 234, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 143.856880658958744, -38.59168610882125 ] } }
+{ "type": "Feature",   "id": 234, "properties": { "year_of_re": "1993", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 143.856880658958744, -38.59168610882125 ] } }
 ,
 { "type": "Feature",  "id": 235, "properties": { "year_of_re": "1993", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 41.619897291669616, 37.596012727693676 ] } }
 ,
-{ "type": "Feature",  "id": 236, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.46118339604719, 19.892762552676203 ] } }
+{ "type": "Feature",   "id": 236, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 83.46118339604719, 19.892762552676203 ] } }
 ,
 { "type": "Feature",  "id": 237, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 103.649059191830816, 19.275771791868692 ] } }
 ,
-{ "type": "Feature",  "id": 238, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -71.637026908617273, -16.389289392490809 ] } }
+{ "type": "Feature",   "id": 238, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -71.637026908617273, -16.389289392490809 ] } }
 ,
-{ "type": "Feature",  "id": 239, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 89.30580910295248, 63.797773480093511 ] } }
+{ "type": "Feature",   "id": 239, "properties": { "year_of_re": "1998", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ 89.30580910295248, 63.797773480093511 ] } }
 ,
 { "type": "Feature",  "id": 240, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -0.66682616799762, 6.438932656082996 ] } }
 ,
 { "type": "Feature",  "id": 241, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -71.74094808731391, -10.97706468623306 ] } }
 ,
-{ "type": "Feature",  "id": 242, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -80.353800708055999, -5.596782674126596 ] } }
+{ "type": "Feature",   "id": 242, "properties": { "year_of_re": "1995", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -80.353800708055999, -5.596782674126596 ] } }
 ,
-{ "type": "Feature",  "id": 243, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -68.974758405996482, -12.122950992565141 ] } }
+{ "type": "Feature",   "id": 243, "properties": { "year_of_re": "1997", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -68.974758405996482, -12.122950992565141 ] } }
 ,
-{ "type": "Feature",  "id": 244, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -72.758721629778037, -11.746065020689379 ] } }
+{ "type": "Feature",   "id": 244, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -72.758721629778037, -11.746065020689379 ] } }
 ,
 { "type": "Feature",  "id": 245, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ 120.583259072365195, -31.968671317223119 ] } }
 ,
-{ "type": "Feature",  "id": 246, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -2.514830413770205, 53.725520811533109 ] } }
+{ "type": "Feature",   "id": 246, "properties": { "year_of_re": "1999", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -2.514830413770205, 53.725520811533109 ] } }
 ,
 { "type": "Feature",  "id": 247, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -1.691768468182001, 51.482884115574358 ] } }
 ,
-{ "type": "Feature",  "id": 248, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -97.257281508676158, 41.00482117094478 ] } }
+{ "type": "Feature",   "id": 248, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -97.257281508676158, 41.00482117094478 ] } }
 ,
-{ "type": "Feature",  "id": 249, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -144.411368974824853, 67.83183964367629 ] } }
+{ "type": "Feature",   "id": 249, "properties": { "year_of_re": "1992", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -144.411368974824853, 67.83183964367629 ] } }
 ,
 { "type": "Feature",  "id": 250, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -144.54818899611459, 63.659542129169886 ] } }
 ,
 { "type": "Feature",  "id": 251, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -79.697474838342373, 34.455015107491917 ] } }
 ,
-{ "type": "Feature",  "id": 252, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -146.2667674229493, 69.880120162459548 ] } }
+{ "type": "Feature",   "id": 252, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -146.2667674229493, 69.880120162459548 ] } }
 ,
-{ "type": "Feature",  "id": 253, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -79.894160828861715, 37.162369133651055 ] } }
+{ "type": "Feature",   "id": 253, "properties": { "year_of_re": "1991", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -79.894160828861715, 37.162369133651055 ] } }
 ,
-{ "type": "Feature",  "id": 254, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -110.369926875054119, 36.592170845206489 ] } }
+{ "type": "Feature",   "id": 254, "properties": { "year_of_re": "1998", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -110.369926875054119, 36.592170845206489 ] } }
 ,
 { "type": "Feature",  "id": 255, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -106.586989149537573, 32.505318217719768 ] } }
 ,
-{ "type": "Feature",  "id": 256, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -1.74388298901287, 8.248701277601327 ] } }
+{ "type": "Feature",   "id": 256, "properties": { "year_of_re": "1990", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -1.74388298901287, 8.248701277601327 ] } }
 ,
 { "type": "Feature",  "id": 257, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -106.518340086439395, 41.346888594067281 ] } }
 ,
-{ "type": "Feature",  "id": 258, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -80.941718352442848, 38.835942540854745 ] } }
+{ "type": "Feature",   "id": 258, "properties": { "year_of_re": "1996", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -80.941718352442848, 38.835942540854745 ] } }
 ,
-{ "type": "Feature",  "id": 259, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -96.244767007630003, 28.980906778998886 ] } }
+{ "type": "Feature",   "id": 259, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -96.244767007630003, 28.980906778998886 ] } }
 ,
 { "type": "Feature",  "id": 260, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -123.290092507190224, 43.973564076791192 ] } }
 ,
 { "type": "Feature",  "id": 261, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -96.850228192321481, 34.445479539619548 ] } }
 ,
-{ "type": "Feature",  "id": 262, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -144.044286095520448, 67.704548046997729 ] } }
+{ "type": "Feature",   "id": 262, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -144.044286095520448, 67.704548046997729 ] } }
 ,
-{ "type": "Feature",  "id": 263, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -95.501684292446896, 37.961194500794534 ] } }
+{ "type": "Feature",   "id": 263, "properties": { "year_of_re": "1990", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -95.501684292446896, 37.961194500794534 ] } }
 ,
-{ "type": "Feature",  "id": 264, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -165.066136580264356, 65.939286389524113 ] } }
+{ "type": "Feature",   "id": 264, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -165.066136580264356, 65.939286389524113 ] } }
 ,
 { "type": "Feature",  "id": 265, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -81.358569318615082, 32.974051636615812 ] } }
 ,
-{ "type": "Feature",  "id": 266, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -148.556932601687862, 66.878174244153755 ] } }
+{ "type": "Feature",   "id": 266, "properties": { "year_of_re": "1994", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -148.556932601687862, 66.878174244153755 ] } }
 ,
 { "type": "Feature",  "id": 267, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -115.832639679773251, 35.056419055564959 ] } }
 ,
-{ "type": "Feature",  "id": 268, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -112.216306677624829, 42.245547156378251 ] } }
+{ "type": "Feature",   "id": 268, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -112.216306677624829, 42.245547156378251 ] } }
 ,
-{ "type": "Feature",  "id": 269, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -145.524434705665385, 61.276774074854757 ] } }
+{ "type": "Feature",   "id": 269, "properties": { "year_of_re": "1990", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -145.524434705665385, 61.276774074854757 ] } }
 ,
 { "type": "Feature",  "id": 270, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -75.735068733558364, 44.456333576805548 ] } }
 ,
 { "type": "Feature",  "id": 271, "properties": { "year_of_re": "1997", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -101.11393190835733, 36.451672297337694 ] } }
 ,
-{ "type": "Feature",  "id": 272, "properties": { "year_of_re": "1991", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.785262651822052, 46.277025510486176 ] } }
+{ "type": "Feature",   "id": 272, "properties": { "year_of_re": "1991", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -89.785262651822052, 46.277025510486176 ] } }
 ,
-{ "type": "Feature",  "id": 273, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -99.254841650169425, 32.219997283744028 ] } }
+{ "type": "Feature",   "id": 273, "properties": { "year_of_re": "1992", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -99.254841650169425, 32.219997283744028 ] } }
 ,
-{ "type": "Feature",  "id": 274, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -152.080290369713538, 63.192451980706934 ] } }
+{ "type": "Feature",   "id": 274, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -152.080290369713538, 63.192451980706934 ] } }
 ,
 { "type": "Feature",  "id": 275, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -84.001078809362355, 33.503107303269346 ] } }
 ,
-{ "type": "Feature",  "id": 276, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -119.305513370493884, 41.356873771393637 ] } }
+{ "type": "Feature",   "id": 276, "properties": { "year_of_re": "1996", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -119.305513370493884, 41.356873771393637 ] } }
 ,
 { "type": "Feature",  "id": 277, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -86.083244848563851, 41.729716677232588 ] } }
 ,
-{ "type": "Feature",  "id": 278, "properties": { "year_of_re": "1990", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -111.51530936356113, 38.907490133189611 ] } }
+{ "type": "Feature",   "id": 278, "properties": { "year_of_re": "1990", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -111.51530936356113, 38.907490133189611 ] } }
 ,
-{ "type": "Feature",  "id": 279, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -112.275279617571044, 42.029383050582652 ] } }
+{ "type": "Feature",   "id": 279, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -112.275279617571044, 42.029383050582652 ] } }
 ,
 { "type": "Feature",  "id": 280, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -100.567598697629904, 47.356879709930752 ] } }
 ,
 { "type": "Feature",  "id": 281, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -113.789717084770643, 46.670867743605072 ] } }
 ,
-{ "type": "Feature",  "id": 282, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -144.214961045318148, 65.408543411852435 ] } }
+{ "type": "Feature",   "id": 282, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -144.214961045318148, 65.408543411852435 ] } }
 ,
-{ "type": "Feature",  "id": 283, "properties": { "year_of_re": "1996", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -95.734205479321389, 47.825437576805101 ] } }
+{ "type": "Feature",   "id": 283, "properties": { "year_of_re": "1996", "marker-color": "#ff0", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -95.734205479321389, 47.825437576805101 ] } }
 ,
-{ "type": "Feature",  "id": 284, "properties": { "year_of_re": "1999", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -115.883806240163267, 45.597151200241498 ] } }
+{ "type": "Feature",   "id": 284, "properties": { "year_of_re": "1999", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -115.883806240163267, 45.597151200241498 ] } }
 ,
 { "type": "Feature",  "id": 285, "properties": { "year_of_re": "1998", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -103.374488090237719, 29.649831999245176 ] } }
 ,
-{ "type": "Feature",  "id": 286, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -97.889553409555475, 30.7009702236432 ] } }
+{ "type": "Feature",   "id": 286, "properties": { "year_of_re": "1995", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -97.889553409555475, 30.7009702236432 ] } }
 ,
 { "type": "Feature",  "id": 287, "properties": { "year_of_re": "1995", "marker-color": "#333", "marker-size": "small", "marker-symbol": "roadblock" }, "geometry": { "type": "Point", "coordinates": [ -76.342777244695498, 42.189621130636453 ] } }
 ,
-{ "type": "Feature",  "id": 288, "properties": { "year_of_re": "1992", "marker-color": "#333", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -113.179216627686486, 37.238231629160808 ] } }
+{ "type": "Feature",   "id": 288, "properties": { "year_of_re": "1992", "marker-color": "#a00", "marker-size": "small", "marker-symbol": "town-hall" }, "geometry": { "type": "Point", "coordinates": [ -113.179216627686486, 37.238231629160808 ] } }
 ,
-{ "type": "Feature",  "id": 289, "properties": { "year_of_re": "1994", "marker-color": "#333", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -106.493911392919159, 45.641215880673158 ] } }
+{ "type": "Feature",   "id": 289, "properties": { "year_of_re": "1994", "marker-color": "#fff", "marker-size": "small", "marker-symbol": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -106.493911392919159, 45.641215880673158 ] } }
 
 ]
 }
